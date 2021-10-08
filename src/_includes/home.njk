@@ -22,19 +22,7 @@
   </head>
   <body>
     <main class="main-content">
-      <article>
-        <header>
-          <h1>
-            {{ title | default(eleventyNavigation.title) |
-            default(eleventyNavigation.key) | safe }}
-          </h1>
-          <p class="summary">
-            <span>{{ summary }}</span>
-          </p>
-        </header>
-
-        {{ content | safe }}
-      </article>
+      {{ content | safe }}
     </main>
   </body>
 </html>
