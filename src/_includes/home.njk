@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ description | default(content | excerpt | striptags) }}" />
+    <title>
+      {{ title | default(eleventyNavigation.title) |
+      default(eleventyNavigation.key) | striptags | safe }}
+    </title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="/assets/og.png" />
+    <meta name="twitter:site" content="@EezehDev" />
+    <meta name="twitter:creator" content="@EezehDev" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:title" content="{{ title | default(eleventyNavigation.title) }}" />
+    <meta property="og:description" content="{{ description | default(content | excerpt | striptags) }}" />
+    <meta property="og:image" content="/assets/og.png" />
+  </head>
+  <body>
+    <main class="main-content">
+      <article>
+        <header>
+          <h1>
+            {{ title | default(eleventyNavigation.title) |
+            default(eleventyNavigation.key) | safe }}
+          </h1>
+          <p class="summary">
+            <span>{{ summary }}</span>
+          </p>
+        </header>
+
+        {{ content | safe }}
+      </article>
+    </main>
+  </body>
+</html>
