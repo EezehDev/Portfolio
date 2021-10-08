@@ -1,0 +1,17 @@
+{
+  "name": "eezeh-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:EezehDev/Portfolio.git",
+  "author": "Jasper De Moor <jasperdemoor@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "markdown-it": "^12.2.0",
+    "markdown-it-anchor": "^8.3.1"
+  }
+}
