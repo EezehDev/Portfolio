@@ -43,7 +43,7 @@ $white-faded: #ffffffab;
         nav{
             display: grid;
             flex-direction: row;
-            grid-template-columns: repeat(4, auto);
+            grid-template-columns: repeat(3, auto);
             column-gap: 2.5rem;
         
             grid-column-start: 2;
