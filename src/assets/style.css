@@ -99,17 +99,16 @@
 
     flex-direction: row;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 2.5rem;
+    column-gap: 3.5rem;
 }
 
 .contact-element{
     font-size: 1.6rem;
     font-weight: bold;
     color: #0074e0;
-    padding: .5rem;
 }
 
 .contact-element:hover{
-    background-color: #148eff;
-    color: white;
+    text-decoration: underline;
+    color: #1965ab;
 }
