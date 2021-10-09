@@ -4,10 +4,6 @@
     margin: 0 auto;
 }
 
-.uppercase{
-    text-transform: uppercase;
-}
-
 .content {
     flex: 1 0 auto;
     margin-top: 10rem;
@@ -19,14 +15,16 @@
     position: fixed;
     width: 100%;
     padding: 3rem 0;
+
     background-color: #23252b;
 }
 
 .header-div{
-    font-weight: bold;
     display: grid;
     flex-direction: row;
     grid-template-columns: 1fr 1fr;
+
+    font-weight: bold;
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -39,7 +37,7 @@
     display: grid;
     flex-direction: row;
     grid-template-columns: repeat(4, auto);
-    column-gap: 2rem;
+    column-gap: 2.5rem;
 
     grid-column-start: 2;
     justify-self: right;
@@ -65,3 +63,53 @@
 }
 
 /*Content styling*/
+
+/*Contact styling*/
+.contact{
+    display: grid;
+    height: 100%;
+    
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.contact-title{
+    padding-bottom: 1.5rem;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #23252b;
+}
+
+.contact-subtitle{
+    padding-bottom: 4.5rem;
+    width: 50rem;
+
+    text-align: center;
+    font-size: 1.8rem;
+    color: #23252b;
+}
+
+.contact-links{
+    display: grid;
+    margin: auto;
+    width: min-content;
+
+    flex-direction: row;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2.5rem;
+}
+
+.contact-element{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #0074e0;
+    padding: .5rem;
+}
+
+.contact-element:hover{
+    background-color: #148eff;
+    color: white;
+}

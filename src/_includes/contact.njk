@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ description | default(content | excerpt | striptags) }}" />
+    <title>
+      {{ title | default(eleventyNavigation.title) |
+      default(eleventyNavigation.key) | striptags | safe }}
+    </title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="/assets/og.png" />
+    <meta name="twitter:site" content="@EezehDev" />
+    <meta name="twitter:creator" content="@EezehDev" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:title" content="{{ title | default(eleventyNavigation.title) }}" />
+    <meta property="og:description" content="{{ description | default(content | excerpt | striptags) }}" />
+    <meta property="og:image" content="/assets/og.png" />
+    <link rel="stylesheet" href="/assets/reset.css">
+    <link rel="stylesheet" href="/assets/style.css">
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="header-div container">
+          <h1 class="header-title"><a href="/" class="nav-element">EezehDev</a></h1>
+          <nav class="header-nav">
+            <a href="/games" class="nav-element">Games</a>
+            <a href="/projects" class="nav-element">Projects</a>
+            <a href="/academic" class="nav-element">Academic</a>
+            <a href="/contact" class="nav-element">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <div class="content">
+        <section class="contact">
+          <h2 class="contact-title">Let's connect!</h2>
+          <div class="contact-subtitle">I would love to hear all about your projects and turn your dreams into great games!</div>
+          <div class="contact-links">
+            <a href="mailto:eezehdev@gmail.com" class="contact-element">Email</a>
+            <a href="https://twitter.com/EezehDev" class="contact-element">Twitter</a>
+            <a href="https://github.com/EezehDev" class="contact-element">GitHub</a>
+            <a href="https://eezehdev.itch.io/" class="contact-element">Itch.io</a>
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <div class="copyright container">Developed by Wouter De Moor - 2021</div>
+      </footer>
+    </main>
+  </body>
+</html>
