@@ -118,20 +118,19 @@ em{
         display: grid;
         flex-direction:row;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 3rem;
 
-        padding-top: 3rem;
+        padding-top: 4rem;
     
         .skill-div{    
             h3{
                 font-weight: bold;
-                font-size: 1.5rem;
+                font-size: 1.8rem;
             }
 
             .skill-list{
                 padding-top: 1rem;
-                font-size: 1.3rem;
-                line-height: 2rem;
+                font-size: 1.5rem;
+                line-height: 2.5rem;
             }
         }
     }
