@@ -10,15 +10,15 @@
 
 .content {
     flex: 1 0 auto;
-    margin-top: 100px;
-    margin-bottom: 20px;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
 }
 
 /*Header styling*/
 .header{
     position: fixed;
     width: 100%;
-    padding: 30px 0px;
+    padding: 3rem 0;
     background-color: #23252b;
 }
 
@@ -31,19 +31,20 @@
 }
 
 .header-title{
-    font-size: 20px;
     grid-column-start: 1;
+    font-size: 2.0rem;
 }
 
 .header-nav{
     display: grid;
     flex-direction: row;
     grid-template-columns: repeat(4, auto);
-    column-gap: 20px;
+    column-gap: 2rem;
 
     grid-column-start: 2;
     justify-self: right;
     align-self: center;
+    font-size: 1.6rem;
 }
 
 .nav-element:hover{
@@ -53,13 +54,14 @@
 /*Footer styling*/
 .footer{
     flex-shrink: 0;
-    padding: 30px 0px;
+    padding-bottom: 4rem;
 }
 
 .copyright{
     text-align: center;
+    color: #15171e77;
+    font-size: 1.4rem;
     font-weight: bold;
-    color: #15171e;
 }
 
 /*Content styling*/

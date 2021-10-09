@@ -50,6 +50,7 @@ table {
 /*Additions by Wouter De Moor (EezehDev)*/
 html {
 	height: 100%;
+	font-size: 62.5%;
 }
 body{
 	height: 100%;
