@@ -17,49 +17,49 @@
     padding: 3rem 0;
 
     background-color: #23252b;
-}
 
-.header-div{
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: 1fr 1fr;
+    div{
+        display: grid;
+        flex-direction: row;
+        grid-template-columns: 1fr 1fr;
 
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.7);
-}
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.7);
 
-.header-title{
-    grid-column-start: 1;
-    font-size: 2.0rem;
-}
-
-.header-nav{
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: repeat(4, auto);
-    column-gap: 2.5rem;
-
-    grid-column-start: 2;
-    justify-self: right;
-    align-self: center;
-    font-size: 1.6rem;
-}
-
-.nav-element:hover{
-    color: #fff;
+        h1{
+            grid-column-start: 1;
+        font-size: 2.0rem;
+        }
+    
+        nav{
+            display: grid;
+            flex-direction: row;
+            grid-template-columns: repeat(4, auto);
+            column-gap: 2.5rem;
+        
+            grid-column-start: 2;
+            justify-self: right;
+            align-self: center;
+            font-size: 1.6rem;
+        }
+    
+        a:hover{
+            color: #fff;
+        }
+    }
 }
 
 /*Footer styling*/
 .footer{
     flex-shrink: 0;
     padding-bottom: 4rem;
-}
 
-.copyright{
-    text-align: center;
-    color: #15171e77;
-    font-size: 1.4rem;
-    font-weight: bold;
+    div{
+        text-align: center;
+        color: #15171e77;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
 }
 
 /*Content styling*/
@@ -72,15 +72,15 @@
     flex-direction: row;
     align-content: center;
     justify-content: center;
-}
 
-.contact-title{
-    padding-bottom: 1.5rem;
+    h2{
+        padding-bottom: 1.5rem;
 
-    text-align: center;
-    font-weight: bold;
-    font-size: 3rem;
-    color: #23252b;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+        color: #23252b;
+    }
 }
 
 .contact-subtitle{
@@ -100,15 +100,14 @@
     flex-direction: row;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 3.5rem;
-}
 
-.contact-element{
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: #0074e0;
-}
-
-.contact-element:hover{
-    text-decoration: underline;
-    color: #1965ab;
+    a{
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #0074e0;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: #1965ab;
+    }
 }
