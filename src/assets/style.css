@@ -1,3 +1,4 @@
+/*General styling*/
 .container{
     width: 960px;
     margin: 0 auto;
@@ -13,6 +14,7 @@
     margin-bottom: 20px;
 }
 
+/*Header styling*/
 .header{
     position: fixed;
     width: 100%;
@@ -30,46 +32,10 @@
 
 .header-title{
     font-size: 20px;
-    display: inline;
     grid-column-start: 1;
 }
 
 .header-nav{
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: repeat(3, auto);
-    column-gap: 20px;
-
-    grid-column-start: 2;
-    justify-self: right;
-    align-self: center;
-}
-
-.nav-element:hover{
-    color: #fff;
-    font-weight: bold;
-}
-
-.footer{
-    flex-shrink: 0;
-    padding: 30px 0px;
-    background-color: #23252b;
-}
-
-.footer-div{
-    font-weight: bold;
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: 1fr 1fr;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.copyright{
-    display: inline;
-    grid-column-start: 1;
-}
-
-.socials{
     display: grid;
     flex-direction: row;
     grid-template-columns: repeat(4, auto);
@@ -79,3 +45,21 @@
     justify-self: right;
     align-self: center;
 }
+
+.nav-element:hover{
+    color: #fff;
+}
+
+/*Footer styling*/
+.footer{
+    flex-shrink: 0;
+    padding: 30px 0px;
+}
+
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    color: #15171e;
+}
+
+/*Content styling*/
