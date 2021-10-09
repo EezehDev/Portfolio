@@ -29,7 +29,7 @@ title: EezehDev - Games
     </section>
     <section class="project-cell">
         <a href="https://eezehdev.itch.io/unarmed" target="_blank" rel="noopener noreferrer">
-            <img src="/img/pressr.png" alt="Unarmed cover">
+            <img src="/img/unarmed.png" alt="Unarmed cover">
             <h3>Unarmed</h3>
             <div>April 2021</div>
         </a>
