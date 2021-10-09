@@ -4,7 +4,7 @@ title: EezehDev - Contact
 ---
 
 <section class="contact">
-  <h2>Let's connect!</h2>
+  <h2 class="contact-title">Let's connect!</h2>
   <div class="contact-subtitle">I would love to hear all about your projects and turn your dreams into great games!</div>
   <div class="contact-links">
     <a href="mailto:eezehdev@gmail.com">Email</a>

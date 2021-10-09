@@ -8,6 +8,10 @@ $white: #ffffff;
 $white-faded: #ffffffab;
 
 /*General styling*/
+html{
+    color: $brand;
+}
+
 .container{
     width: 960px;
     margin: 0 auto;
@@ -17,6 +21,15 @@ $white-faded: #ffffffab;
     flex: 1 0 auto;
     margin-top: 12rem;
     margin-bottom: 4rem;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+em{
+    font-weight: 600;
 }
 
 /*Header styling*/
@@ -71,12 +84,62 @@ $white-faded: #ffffffab;
     }
 }
 
-/*Content styling*/
-h2{
-    font-weight: bold;
-    font-size: 3rem;
-    color: $brand;
+/*Home styling*/
+.introduction{
+    padding: 5rem 0 9rem 0;
+    font-size: 1.8rem;
+
+    .introduction-title{
+        padding-bottom: 7rem;
+    }
+
+    .introduction-text{
+        width: 45rem;
+    }
+
+    .introduction-contact{
+        padding-top: 3rem;
+    }
+
+    .introduction-link{
+        color: $light-blue;
+    }
+
+    .introduction-link:hover{
+        color: $dark-blue;
+        text-decoration: underline;
+    }
+}
+
+.skills{
+    margin-bottom: 9rem;
+
+    .skills-grid{
+        display: grid;
+        flex-direction:row;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 3rem;
+
+        padding-top: 3rem;
     
+        .skill-div{    
+            h3{
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+
+            .skill-list{
+                padding-top: 1rem;
+                font-size: 1.3rem;
+                line-height: 2rem;
+            }
+        }
+    }
+}
+
+
+/*Grid styling*/
+.grid-title{
     text-align: center;
 }
 
@@ -84,7 +147,6 @@ h2{
     display: grid;
     flex-direction: row;
     padding: 4rem 0;
-    color: $brand;
 
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
@@ -123,8 +185,9 @@ h2{
     align-content: center;
     justify-content: center;
 
-    h2{
+    .contact-title{
         padding-bottom: 1.5rem;
+        text-align: center;
     }
 }
 
@@ -134,7 +197,6 @@ h2{
 
     text-align: center;
     font-size: 1.8rem;
-    color: $brand;
 }
 
 .contact-links{
