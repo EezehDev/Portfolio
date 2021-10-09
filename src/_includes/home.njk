@@ -19,10 +19,38 @@
     <meta property="og:title" content="{{ title | default(eleventyNavigation.title) }}" />
     <meta property="og:description" content="{{ description | default(content | excerpt | striptags) }}" />
     <meta property="og:image" content="/assets/og.png" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="home.css">
   </head>
   <body>
-    <main class="main-content">
-      {{ content | safe }}
+    <main>
+      <header class="header uppercase">
+        <div class="header-div container">
+          <h1 class="header-title"><a href="" class="nav-element">EezehDev</a></h1>
+          <nav class="header-nav">
+            <a href="" class="nav-element">Home</a>
+            <a href="" class="nav-element">Projects</a>
+            <a href="" class="nav-element">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <div class="content">
+        <section class="sectionTest">
+        </section>
+      </div>
+
+      <footer class="footer uppercase">
+        <div class="footer-div container">
+          <div class="copyright">Developed by Wouter De Moor - 2021</div>
+          <div class="socials">
+            <a href="mailto:eezehdev@gmail.com" class="nav-element">Email</a>
+            <a href="https://twitter.com/EezehDev" target="_blank" rel="noopener noreferrer" class="nav-element">Twitter</a>
+            <a href="https://github.com/EezehDev" target="_blank" rel="noopener noreferrer" class="nav-element">GitHub</a>
+            <a href="https://eezehdev.itch.io/" target="_blank" rel="noopener noreferrer" class="nav-element">itch.io</a>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

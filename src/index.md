@@ -1,8 +1,4 @@
 ---
 layout: home.njk
-title: Eezehdev
+title: EezehDev - Home
 ---
-
-# Hello
-
-Welcome to my portfolio site
