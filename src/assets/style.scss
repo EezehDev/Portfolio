@@ -1,10 +1,11 @@
-/*Colors*/
+/*Color variables*/
 $brand: #23252b;
 $brand-faded: #23252b77;
 $light-blue: #0074e0;
 $dark-blue: #1965ab;
 $grey: #8f8f8f;
-$white-faded: rgba(255, 255, 255, 0.7);
+$white: #ffffff;
+$white-faded: #ffffffab;
 
 /*General styling*/
 .container{
@@ -52,7 +53,7 @@ $white-faded: rgba(255, 255, 255, 0.7);
         }
     
         a:hover{
-            color: white;
+            color: $white;
         }
     }
 }
