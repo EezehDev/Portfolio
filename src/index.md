@@ -1,4 +1,4 @@
 ---
-layout: home.njk
+layout: layout.njk
 title: EezehDev - Home
 ---
