@@ -57,6 +57,19 @@ module.exports = function (eleventyConfig) {
     return excerpt;
   });
 
+  eleventyConfig.addShortcode(
+    "projectcard",
+    function (title, date, linkHref, imageSource) {
+      return `<section class="project-cell">
+      <a href="${linkHref}" target="_blank" rel="noopener noreferrer">
+        <img src="${imageSource}" alt="${title} cover">
+        <h3>${title}</h3>
+        <div>${date}</div>
+      </a>
+    </section>`;
+    }
+  );
+
   return {
     dir: {
       input: "src",
