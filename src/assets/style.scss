@@ -17,6 +17,12 @@ html{
     margin: 0 auto;
 }
 
+@media (max-width: 1199px){
+    .container{
+        width: 85%;
+    }
+}
+
 .content {
     flex: 1 0 auto;
     margin-top: 12rem;
@@ -30,6 +36,17 @@ h2{
 
 em{
     font-weight: 600;
+}
+
+a{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: $light-blue;
+}
+
+a:hover{
+    color: $dark-blue;
+    text-decoration: underline;
 }
 
 /*Header styling*/
@@ -48,7 +65,7 @@ em{
         font-weight: bold;
         color: $white-faded;
 
-        h1{
+        .header-title{
             grid-column-start: 1;
             font-size: 2.0rem;
         }
@@ -64,9 +81,15 @@ em{
             align-self: center;
             font-size: 1.6rem;
         }
+
+        a{
+            font-size: 1.6rem;
+            color: $white-faded;
+        }
     
         a:hover{
             color: $white;
+            text-decoration: none;
         }
     }
 }
@@ -100,15 +123,6 @@ em{
     .introduction-contact{
         padding-top: 3rem;
     }
-
-    .introduction-link{
-        color: $light-blue;
-    }
-
-    .introduction-link:hover{
-        color: $dark-blue;
-        text-decoration: underline;
-    }
 }
 
 .skills{
@@ -116,22 +130,31 @@ em{
 
     .skills-grid{
         display: grid;
-        flex-direction:row;
+        flex-direction: row;
         grid-template-columns: repeat(3, 1fr);
 
         padding-top: 4rem;
-    
-        .skill-div{    
-            h3{
-                font-weight: bold;
-                font-size: 1.8rem;
-            }
+    }
 
-            .skill-list{
-                padding-top: 1rem;
-                font-size: 1.5rem;
-                line-height: 2.5rem;
-            }
+    @media (max-width: 1199px) {
+        .skills-grid{
+            flex-direction: column;
+            grid-template-columns: 1fr;
+
+            row-gap: 3rem;
+        }
+    }
+
+    .skill-div{    
+        h3{
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
+
+        .skill-list{
+            padding-top: 1rem;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
         }
     }
 }
@@ -150,27 +173,34 @@ em{
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
     row-gap: 2rem;
+}
 
-    .project-cell{
-        a{
-            display: block;
-            text-align: left;
-            
-            h3{
-                padding: 1rem 0 .5rem 0;
-                font-size: 1.5rem;
-                font-weight: bold;
-            }
+@media (max-width: 1199px) {
+    .project-grid{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+}
+
+.project-cell{
+    a{
+        display: block;
+        text-align: left;
         
-            img{
-                width: 100%;
-                border-radius: 1rem;
-            }
+        h3{
+            padding: 1rem 0 .5rem 0;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    
+        img{
+            width: 100%;
+            border-radius: 1rem;
+        }
 
-            div{
-                font-size: 1.2rem;
-                color: $brand-faded;
-            }
+        div{
+            font-size: 1.2rem;
+            color: $brand-faded;
         }
     }
 }
@@ -206,14 +236,4 @@ em{
     flex-direction: row;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 3.5rem;
-
-    a{
-        font-size: 1.6rem;
-        font-weight: bold;
-        color: $light-blue;
-    }
-    a:hover{
-        text-decoration: underline;
-        color: $dark-blue;
-    }
 }
