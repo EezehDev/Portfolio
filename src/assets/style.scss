@@ -29,6 +29,13 @@ html{
     margin-bottom: 4rem;
 }
 
+@media (max-width: 1199px){
+    .content {
+        margin-top: 9.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
 h2{
     font-weight: bold;
     font-size: 3rem;
@@ -134,8 +141,8 @@ a:hover{
 }
 
 @media (max-width: 1199px){
-    .introduction{
-        padding: 2.5rem 0 6.5rem 0;
+    .introduction {
+        padding-bottom: 6.5rem;
     }
 }
 
@@ -174,7 +181,7 @@ a:hover{
 }
 
 @media (max-width: 1199px){
-    .skills{
+    .skills {
         margin-bottom: 6.5rem;
     }
 }
