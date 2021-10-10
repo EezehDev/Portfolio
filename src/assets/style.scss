@@ -19,7 +19,7 @@ html{
 
 @media (max-width: 1199px){
     .container{
-        width: 85%;
+        width: 90%;
     }
 }
 
@@ -109,7 +109,11 @@ a:hover{
 
 /*Home styling*/
 .introduction{
+    display: grid;
+    flex-direction: row;
+    justify-content: left;
     padding: 5rem 0 9rem 0;
+    
     font-size: 1.8rem;
 
     .introduction-title{
@@ -117,12 +121,15 @@ a:hover{
     }
 
     .introduction-text{
-        width: 50rem;
-        max-width: 90%;
+        min-width: 80%;
+        max-width: 50rem;
     }
 
     .introduction-contact{
         padding-top: 3rem;
+
+        min-width: 80%;
+        max-width: 45rem;
     }
 }
 
@@ -235,8 +242,8 @@ a:hover{
 .contact-subtitle{
     margin: 0 auto;
     padding: 0 2rem 4.5rem 2rem;
-    width: 50rem;
-    max-width: 90%;
+    min-width: 80%;
+    max-width: 50rem;
 
     text-align: center;
     font-size: 1.8rem;
