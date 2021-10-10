@@ -211,6 +211,12 @@ a:hover{
     text-align: center;
 }
 
+@media (max-width: 1200px){
+    .grid-title {
+        margin-top: 3rem;
+    }
+}
+
 .project-grid{
     display: grid;
     flex-direction: row;
