@@ -18,7 +18,7 @@ title: EezehDev - Home
                 <li>C#</li>
                 <li>C++</li>
                 <li>HLSL</li>
-                <li>Javascript &amp; HTML</li>
+                <li>JavaScript &amp; HTML</li>
                 <li>CSS &amp; Sass</li>
             </ul>
         </div>
