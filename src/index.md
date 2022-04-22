@@ -47,7 +47,7 @@ title: EezehDev - Home
     <h2>Highlighted projects</h2>
     <div class="project-grid container">
         {% projectcard "Oogies Spacepark", "UE4 BP &Iota; September 2021", "https://enzomannaert.itch.io/oogies-spacepark", "/img/oogiesspacepark.png" %}
+        {% projectcard "Volcano Brawl", "Unity C# &Iota; April 2022", "https://gwalraet.itch.io/volcano-brawl", "/img/volcano.png" %}
         {% projectcard "Press R", "Unity C# &Iota; August 2021", "https://eezehdev.itch.io/pressr", "/img/pressr.png" %}
-        {% projectcard "Research: AI Formations", "Unity C# &Iota; January 2021", "https://github.com/EezehDev/AI-Formations", "/img/aiformations.png" %}
     </div>
 </section>
