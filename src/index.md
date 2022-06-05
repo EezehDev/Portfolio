@@ -48,6 +48,6 @@ title: EezehDev - Home
     <div class="project-grid container">
         {% projectcard "Oogies Spacepark", "Epic MegaJam &Iota; 2021", "https://enzomannaert.itch.io/oogies-spacepark", "/img/oogiesspacepark.png" %}
         {% projectcard "Volcano Brawl", "DAE Crea Week &Iota; 2022", "https://gwalraet.itch.io/volcano-brawl", "/img/volcano.png" %}
-        {% projectcard "Bomberman Remake", "DirectX C++ &Iota; May 2022", "https://www.youtube.com/watch?v=D0A7TW-T1Ck", "/img/bomberman.png" %}
+        {% projectcard "Bomberman Remake", "DirectX C++ &Iota; 2022", "https://www.youtube.com/watch?v=7mh5uRZ0Lmc", "/img/bomberman.png" %}
     </div>
 </section>
