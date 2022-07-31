@@ -63,10 +63,7 @@ module.exports = function (eleventyConfig) {
             return `<section class="project-cell">
       <a href="${linkHref}" target="_blank" rel="noopener noreferrer">
         <img src="${imageSource}" alt="${title} cover">
-        <div class="projectcardTitleDiv">
-            <h3>${title}</h3>
-            <div class="projectcardDate">${date}</div>
-        </div>
+            <h3>${title} (${date})</h3>
         <div>${subtitle}</div>
       </a>
     </section>`;
