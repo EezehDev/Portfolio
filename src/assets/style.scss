@@ -239,10 +239,15 @@ a:hover{
         display: block;
         text-align: left;
         
-        h3{
-            padding: 1rem 0 .5rem 0;
-            font-size: 1.5rem;
-            font-weight: bold;
+        .projectcardTitleDiv{
+            display: flex;
+            grid-template-rows: 1fr 1fr;
+
+            h3{
+                padding: 1rem 0 .5rem 0;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
         }
     
         img{

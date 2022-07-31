@@ -46,8 +46,8 @@ title: EezehDev - Home
 <section class="highlights container">
     <h2>Highlighted projects</h2>
     <div class="project-grid container">
-        {% projectcard "Oogies Spacepark", "Epic MegaJam &Iota; 2021", "https://enzomannaert.itch.io/oogies-spacepark", "/img/oogiesspacepark.png" %}
-        {% projectcard "Volcano Brawl", "DAE Crea Week &Iota; 2022", "https://gwalraet.itch.io/volcano-brawl", "/img/volcano.png" %}
-        {% projectcard "Bomberman", "DirectX C++ &Iota; 2022", "https://www.youtube.com/watch?v=7mh5uRZ0Lmc", "/img/bomberman.png" %}
+        {% projectcard "Oogies Spacepark", "2021", "Epic MegaJam", "https://enzomannaert.itch.io/oogies-spacepark", "/img/oogiesspacepark.png" %}
+        {% projectcard "Volcano Brawl", "2022", "DAE Crea Week", "https://gwalraet.itch.io/volcano-brawl", "/img/volcano.png" %}
+        {% projectcard "Bomberman", "2022", "DirectX C++", "https://www.youtube.com/watch?v=7mh5uRZ0Lmc", "/img/bomberman.png" %}
     </div>
 </section>
