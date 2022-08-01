@@ -6,7 +6,7 @@ title: EezehDev - Home
 <section class="introduction container">
     <h2 class="introduction-title">Hello and welcome! &#128075;</h2>
     <div class="introduction-text">I'm <em>Wouter De Moor</em>, a game developer who loves to both design and create gameplay and tools for games.</div>
-    <div class="introduction-contact">Want to get in touch? Feel free to mail me: <a href="mailto:eezehdev@gmail.com">eezehdev@gmail.com</a></div>
+    <div class="introduction-contact">Want to get in touch? Feel free to mail me: <a href="mailto:eezehdev@gmail.com" class="introduction-mail">eezehdev@gmail.com</a></div>
 </section>
 
 <section class="skills container">
