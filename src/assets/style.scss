@@ -206,10 +206,16 @@ a:hover{
     }
 }
 
-.highlights{
+.viewall{
+    display: flex;
+    justify-content: right;
+
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 1200px){
     .viewall{
-        display: flex;
-        justify-content: right;
+        justify-content: center;
     }
 }
 
