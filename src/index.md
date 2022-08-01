@@ -26,7 +26,7 @@ title: EezehDev - Home
             <h3>Engines & APIs</h3>
             <ul class="skill-list">
                 <li>Unreal Engine 4 &amp; 5</li>
-                <li>Unity 2D &amp; 3D</li>
+                <li>Unity 3D</li>
                 <li>DirectX</li>
             </ul>
         </div>
@@ -34,10 +34,10 @@ title: EezehDev - Home
             <h3>Tools</h3>
             <ul class="skill-list">
                 <li>Visual Studio</li>
-                <li>GitHub</li>
-                <li>Perforce</li>
-                <li>HacknPlan</li>
-                <li>Trello</li>
+                <li>Git(Hub) &amp; Perforce</li>
+                <li>HacknPlan &amp; Trello</li>
+                <li>Blender</li>
+                <li>Photoshop &amp; Illustrator</li>
             </ul>
         </div>
     </div>
@@ -46,8 +46,8 @@ title: EezehDev - Home
 <section class="highlights container">
     <h2>Highlighted projects</h2>
     <div class="project-grid container">
-        {% projectcard "Oogies Spacepark", "2021", "Epic MegaJam", "https://enzomannaert.itch.io/oogies-spacepark", "/img/oogiesspacepark.png" %}
-        {% projectcard "Volcano Brawl", "2022", "DAE Crea Week", "https://gwalraet.itch.io/volcano-brawl", "/img/volcano.png" %}
-        {% projectcard "Bomberman", "2022", "DirectX C++", "https://www.youtube.com/watch?v=7mh5uRZ0Lmc", "/img/bomberman.png" %}
+        {% projectcard "Oogies Spacepark", "2021", "Epic MegaJam submission, where I worked in blueprints to develop the interaction and sound system.", "https://enzomannaert.itch.io/oogies-spacepark", "/img/oogiesspacepark.png" %}
+        {% projectcard "Volcano Brawl", "2022", "Game jam project made in 4 days using Unity3D and C#. Tested my overall knowledge with the engine. Helped create the core game loop, made use of ShaderGraph, overall QA and project setup including render pipeline.", "https://gwalraet.itch.io/volcano-brawl", "/img/volcano.png" %}
+        {% projectcard "Bomberman", "2022", "Custom DirectX C++ engine, where I've written the main render logic and shaders in HLSL (post-processing, particles, sprites, etc.)", "https://www.youtube.com/watch?v=7mh5uRZ0Lmc", "/img/bomberman.png" %}
     </div>
 </section>
