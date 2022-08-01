@@ -139,6 +139,11 @@ a:hover{
     font-weight: bold;
 }
 
+.socials{
+    display: flex;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
 /*Home styling*/
 .introduction{
     display: grid;
