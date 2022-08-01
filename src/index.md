@@ -44,10 +44,16 @@ title: EezehDev - Home
 </section>
 
 <section class="highlights container">
-    <h2>Highlighted projects</h2>
+    <h2>Highlighted games</h2>
     <div class="project-grid container">
         {% projectcard "Oogies Spacepark", "2021", "Epic MegaJam submission, where I worked in blueprints to develop the interaction and sound system.", "https://enzomannaert.itch.io/oogies-spacepark", "/img/oogiesspacepark.png" %}
         {% projectcard "Volcano Brawl", "2022", "Game jam project made in 4 days using Unity3D and C#. Helped create the core game loop, shaders written in ShaderGraph, overall QA and project setup.", "https://gwalraet.itch.io/volcano-brawl", "/img/volcano.png" %}
+        {% projectcard "Press R", "2021", "Kenney Jam submission, a fun little platformer made together with a friend in Unity C#.", "https://eezehdev.itch.io/pressr", "/img/pressr.png" %}
+    </div>
+    <h2>Academic projects</h2>
+    <div class="project-grid container">
         {% projectcard "Bomberman", "2022", "Custom DirectX C++ engine. Worked on the main DirectX render logic, gameplay in C++ and shaders in HLSL (post-processing, particles, sprites, etc.)", "https://www.youtube.com/watch?v=7mh5uRZ0Lmc", "/img/bomberman.png" %}
+        {% projectcard "Bikin Ice", "2022", "Group project together with 4 other students, created the core game systems for a fun co-op game in Unity C#.", "https://lukaverhelle.itch.io/bikinice", "/img/bikinice.png" %}
+        {% projectcard "Burger Time", "2022", "Developed in my self made engine using C++/SDL. Wrote the core engine logic and full gameplay loop/system, featuring Co-op and PvP gamemodes.", "https://www.youtube.com/watch?v=SEvyhN2z5WI", "/img/burgertime.png" %}
     </div>
 </section>
