@@ -128,25 +128,26 @@ a:hover{
 
     .footer-container{
         display: flex;
-        grid-template-rows: 1fr 1rem 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: space-between;
     }
 }
 
 .copyright{
-    text-align: left;
     color: $brand-faded;
     font-size: 1.4rem;
     font-weight: bold;
 }
 
 .socials{
-    grid-row: 2;
-    justify-self: right;
     display: flex;
     grid-template-rows: repeat(4, 1fr);
+    width: 30rem;
 
     a{
         display: block;
+        width: 25%;
+        text-align: right;
     }
 }
 
