@@ -126,8 +126,9 @@ a:hover{
     flex-shrink: 0;
     padding-bottom: 4rem;
 
-    div{
+    .footer-container{
         display: flex;
+        grid-template-rows: repeat(2, 1fr);
         justify-content: space-between;
     }
 }
@@ -141,7 +142,7 @@ a:hover{
 
 .socials{
     display: flex;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
 }
 
 /*Home styling*/
