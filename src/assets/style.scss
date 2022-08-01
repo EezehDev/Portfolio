@@ -206,6 +206,13 @@ a:hover{
     }
 }
 
+.highlights{
+    .viewall{
+        display: flex;
+        justify-content: right;
+    }
+}
+
 /*Grid styling*/
 .grid-title{
     text-align: center;
