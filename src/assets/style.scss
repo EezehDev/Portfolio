@@ -129,20 +129,24 @@ a:hover{
     .footer-container{
         display: flex;
         grid-template-rows: repeat(2, 1fr);
-        justify-content: space-between;
     }
 }
 
 .copyright{
-    text-align: center;
+    text-align: left;
     color: $brand-faded;
     font-size: 1.4rem;
     font-weight: bold;
 }
 
 .socials{
+    justify-self: right;
     display: flex;
     grid-template-rows: repeat(4, 1fr);
+
+    a{
+        display: block;
+    }
 }
 
 /*Home styling*/
