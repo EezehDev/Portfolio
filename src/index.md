@@ -55,9 +55,9 @@ title: EezehDev - Home
     </div>
     <h2>Academic projects</h2>
     <div class="project-grid container">
-        {% projectcardvideo "Bomberman", "2022", "Custom DirectX C++ engine. Worked on the main DirectX render logic, gameplay in C++ and shaders in HLSL (post-processing, particles, sprites, etc.)", "https://www.youtube.com/watch?v=7mh5uRZ0Lmc" %}
+        {% projectcardvideo "Bomberman", "2022", "Custom DirectX C++ engine. Worked on the main DirectX render logic, gameplay in C++ and shaders in HLSL (post-processing, particles, sprites, etc.)", "https://www.youtube.com/embed/7mh5uRZ0Lmc" %}
         {% projectcard "Bikin Ice", "2022", "Group project together with 4 other students, created the core game systems for a fun co-op game in Unity C#.", "https://lukaverhelle.itch.io/bikinice", "/img/bikinice.png" %}
-        {% projectcardvideo "Burger Time", "2022", "Developed in my self made engine using C++/SDL. Wrote the core engine logic and full gameplay loop/system, featuring Co-op and PvP gamemodes.", "https://www.youtube.com/watch?v=SEvyhN2z5WI" %}
+        {% projectcardvideo "Burger Time", "2022", "Developed in my self made engine using C++/SDL. Wrote the core engine logic and full gameplay loop/system, featuring Co-op and PvP gamemodes.", "https://www.youtube.com/embed/SEvyhN2z5WI" %}
     </div>
     <div class="viewall">
         <a href="/academic">View all academics</a>

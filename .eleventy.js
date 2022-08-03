@@ -74,7 +74,7 @@ module.exports = function (eleventyConfig) {
         "projectcardvideo",
         function (title, date, subtitle, videoSource) {
             return `<section class="project-cell">
-                <iframe src="${videoSource}"></iframe>
+                <iframe src="${videoSource}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <h3>${title} &Iota; ${date}</h3>
                 <div>${subtitle}</div>
             </section>`;
