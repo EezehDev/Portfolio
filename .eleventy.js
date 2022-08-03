@@ -60,13 +60,26 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode(
         "projectcard",
         function (title, date, subtitle, linkHref, imageSource) {
-            return `<section class="project-cell">
-      <a href="${linkHref}" target="_blank" rel="noopener noreferrer">
-        <img src="${imageSource}" alt="${title} cover">
-            <h3>${title} &Iota; ${date}</h3>
-        <div>${subtitle}</div>
-      </a>
-    </section>`;
+            return `
+            <section class="project-cell">
+                <a href="${linkHref}" target="_blank" rel="noopener noreferrer">
+                    <img src="${imageSource}" alt="${title} cover">
+                    <h3>${title} &Iota; ${date}</h3>
+                    <div>${subtitle}</div>
+                </a>
+            </section>`;
+        }
+    );
+
+    eleventyConfig.addShortcode(
+        "projectcardvideo",
+        function (title, date, subtitle, videoSource) {
+            return `
+            <section class="project-cell">
+                <iframe src="${videoSource}"></iframe>
+                <h3>${title} &Iota; ${date}</h3>
+                <div>${subtitle}</div>
+            </section>`;
         }
     );
 
