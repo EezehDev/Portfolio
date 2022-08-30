@@ -4,9 +4,9 @@ title: WouterDeMoor - Home
 ---
 
 <section class="introduction container">
-    <h2 class="introduction-title">Hello and welcome! &#128075;</h2>
-    <div class="introduction-text"><em>Wouter De Moor</em> here, aspiring gameplay programmer and designer. Excited to learn all about game development and ready for the challenges ahead.</div>
-    <div class="introduction-contact">Want to talk? So do I! Send me a mail: <a href="mailto:wouter.demoor@live.be" class="introduction-mail">wouter.demoor@live.be</a></div>
+    <h2 class="introduction-title">Hello and welcome &#128075;</h2>
+    <div class="introduction-text"><em>Wouter De Moor</em> here, aspiring gameplay programmer and designer. Excited to learn all about game development and ready for the challenges ahead!</div>
+    <div class="introduction-contact">Want to talk? Let's get in touch: <a href="mailto:wouter.demoor@live.be" class="introduction-mail">wouter.demoor@live.be</a></div>
 </section>
 
 <section class="skills container">
