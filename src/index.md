@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: EezehDev - Home
+title: WouterDeMoor - Home
 ---
 
 <section class="introduction container">
