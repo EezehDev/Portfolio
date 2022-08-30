@@ -46,18 +46,18 @@ title: WouterDeMoor - Home
 <section class="highlights container">
     <h2>Highlighted games</h2>
     <div class="project-grid container">
-        {% projectcard "Oogies Spacepark", "2021", "Epic MegaJam submission, where I worked in blueprints to develop the interaction and sound system.", "https://enzomannaert.itch.io/oogies-spacepark", "/img/oogiesspacepark.png" %}
-        {% projectcard "Volcano Brawl", "2022", "Game jam project made in 4 days using Unity3D and C#. Helped create the core game loop, shaders written in ShaderGraph, overall QA and project setup.", "https://gwalraet.itch.io/volcano-brawl", "/img/volcano.png" %}
-        {% projectcard "Press R", "2021", "Kenney Jam submission, a fun little platformer made together with a friend in Unity C#.", "https://eezehdev.itch.io/pressr", "/img/pressr.png" %}
+        {% projectcard "Oogies Spacepark", "2021 (7 days)", "Epic MegaJam submission created with 4 friends, where I worked in blueprints to develop the interaction and sound system.", "https://enzomannaert.itch.io/oogies-spacepark", "/img/oogiesspacepark.png" %}
+        {% projectcard "Volcano Brawl", "2022 (4 days)", "Game jam project made using Unity3D and C#. Helped create the core game loop, shaders written in ShaderGraph, overall QA and project setup.", "https://gwalraet.itch.io/volcano-brawl", "/img/volcano.png" %}
+        {% projectcard "Press R", "2021 (48 hours)", "Kenney Jam submission, a fun little platformer made together with a friend in Unity C#.", "https://eezehdev.itch.io/pressr", "/img/pressr.png" %}
     </div>
     <div class="viewall">
         <a href="/games">View all games</a>
     </div>
     <h2>Academic projects</h2>
     <div class="project-grid container">
-        {% projectcard "Bomberman", "2022", "Custom DirectX C++ engine. Worked on the main DirectX render logic, gameplay in C++ and shaders in HLSL (post-processing, particles, sprites, etc.)", "https://www.youtube.com/watch?v=7mh5uRZ0Lmc", "/img/bomberman.png" %}
-        {% projectcard "Bikin Ice", "2022", "Group project together with 4 other students, created the core game systems for a fun co-op game in Unity C#.", "https://lukaverhelle.itch.io/bikinice", "/img/bikinice.png" %}
-        {% projectcard "Burger Time", "2022", "Developed in my self made engine using C++/SDL. Wrote the core engine logic and full gameplay loop/system, featuring Co-op and PvP gamemodes.", "https://www.youtube.com/watch?v=SEvyhN2z5WI", "/img/burgertime.png" %}
+        {% projectcard "Bomberman", "2022 (3 weeks)", "Custom DirectX C++ engine and Bomberman remake. Implementing DirectX render logic and pipeline, gameplay written in C++ and shaders in HLSL.", "https://www.youtube.com/watch?v=7mh5uRZ0Lmc", "/img/bomberman.png" %}
+        {% projectcard "Bikin Ice", "2022 (12 days)", "Group project together with 4 other students, testing our project management and teamwork skills while developing a fun co-op game.", "https://lukaverhelle.itch.io/bikinice", "/img/bikinice.png" %}
+        {% projectcard "Burger Time", "2022 (3 weeks)", "Burger Time remake using my self made engine powered by C++/SDL. Gameplay implemented using programming design patterns (command, prototype, state, ...).", "https://www.youtube.com/watch?v=SEvyhN2z5WI", "/img/burgertime.png" %}
     </div>
     <div class="viewall">
         <a href="/academic">View all academics</a>
