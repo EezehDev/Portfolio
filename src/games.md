@@ -12,6 +12,6 @@ title: WouterDeMoor - Games
     {% projectcard "Oogies Spacepark", "2021 (7 days)", "Epic MegaJam submission created with 4 friends, where I worked in blueprints to develop the interaction and sound system.", "https://enzomannaert.itch.io/oogies-spacepark", "/img/oogiesspacepark.png" %}
     {% projectcard "Press R", "2021 (48 hours)", "Kenney Jam submission, a fun little platformer made together with a friend in Unity C#.", "https://eezehdev.itch.io/pressr", "/img/pressr.png" %}
     {% projectcard "RideTheChains", "2021 (48 hours)", "MashUp Game Jam 2 submission made with a couple of friends, worked on the endless loop system and helped with combat behavior using Unity.", "https://tomstevens.itch.io/ridethechains", "/img/ridethechains.png" %}
-    {% projectcard "Unarmed", "2021 (48 hours)", "DAE Virtual Easter JAM, my first ever game jam together with 4 students. Team captain and lead developer, using Unity.", "https://eezehdev.itch.io/unarmed", "/img/unarmed.png" %}
+    {% projectcard "Unarmed", "2021 (48 hours)", "DAE Virtual Easter JAM, my first ever game jam together with 4 students. Team captain and lead developer, made with Unity.", "https://eezehdev.itch.io/unarmed", "/img/unarmed.png" %}
   </div>
 </section>
