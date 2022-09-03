@@ -13,6 +13,7 @@ module.exports = function (eleventyConfig) {
         "svg",
         "mp4",
         "jpg",
+        "gif"
     ]);
 
     eleventyConfig.setFrontMatterParsingOptions({
@@ -60,7 +61,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode(
         "projectcard",
         function (title, date, subtitle, linkHref, imageSource) {
-            return `<link rel="preload" as="image" href="/src/gif/${imageSource}.gif" />
+            return `<link rel="preload" as="image" href="/gif/${imageSource}.gif" />
             <section class="project-cell">
                 <a href="${linkHref}" target="_blank" rel="noopener noreferrer">
                     <img src="/img/${imageSource}.png" alt="${title} cover">
