@@ -60,9 +60,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode(
         "projectcard",
         function (title, date, subtitle, linkHref, imageSource) {
-            return `<section class="project-cell">
+            return `<link rel="preload" as="image" href="/gif/${imageSource}.gif" />
+            <section class="project-cell">
                 <a href="${linkHref}" target="_blank" rel="noopener noreferrer">
-                    <img src="${imageSource}" alt="${title} cover">
+                    <img src="/img/${imageSource}.png" alt="${title} cover">
                     <h3>${title} &Iota; ${date}</h3>
                     <div>${subtitle}</div>
                 </a>
