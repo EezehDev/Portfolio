@@ -286,5 +286,9 @@ a:hover{
             font-size: 1.2rem;
             color: $white-faded;
         }
+
+        div:hover{
+            text-decoration: none;
+        }
     }
 }
