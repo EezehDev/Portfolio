@@ -1,8 +1,8 @@
 /*Color variables*/
 $brand: #191b20;
 $background: #202229;
-$link-blue: #0074e0;
-$linkhover-blue: #1965ab;
+$link-blue: #1387f3;
+$linkhover-blue: #117adc;
 $grey: #8f8f8f;
 $white: #ffffff;
 $white-faded: #ffffffab;
@@ -92,11 +92,11 @@ a:hover{
 
         a{
             font-size: 1.6rem;
-            color: $white-faded;
+            color: $white;
         }
     
         a:hover{
-            color: $white;
+            color: $link-blue;
             text-decoration: none;
         }
     }
