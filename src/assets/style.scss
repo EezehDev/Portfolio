@@ -1,8 +1,8 @@
 /*Color variables*/
 $brand: #191b20;
 $background: #202229;
-$link-blue: #1387f3;
-$linkhover-blue: #0069ca;
+$link-red: #de4641;
+$linkhover-red: #a83430;
 $grey: #8f8f8f;
 $white: #e6ecf1;
 $white-faded: #e6ecf1ab;
@@ -49,11 +49,11 @@ em{
 a{
     font-size: 1.6rem;
     font-weight: bold;
-    color: $link-blue;
+    color: $link-red;
 }
 
 a:hover{
-    color: $linkhover-blue;
+    color: $linkhover-red;
     text-decoration: underline;
 }
 
@@ -96,7 +96,7 @@ a:hover{
         }
     
         a:hover{
-            color: $linkhover-blue;
+            color: $linkhover-red;
             text-decoration: none;
         }
     }
