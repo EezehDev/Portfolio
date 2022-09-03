@@ -156,7 +156,7 @@ a:hover{
     display: grid;
     flex-direction: row;
     justify-content: left;
-    padding: 5rem 0 9rem 0;
+    padding: 4.5rem 0 8rem 0;
     
     font-size: 1.8rem;
 
@@ -239,6 +239,7 @@ a:hover{
 /*Grid styling*/
 .grid-title{
     text-align: center;
+    margin-top: 1rem;
 }
 
 @media (max-width: 1200px){
