@@ -2,10 +2,10 @@
 $brand: #191b20;
 $background: #202229;
 $link-blue: #1387f3;
-$linkhover-blue: #117adc;
+$linkhover-blue: #0069ca;
 $grey: #8f8f8f;
-$white: #ffffff;
-$white-faded: #ffffffab;
+$white: #d2d5e0;
+$white-faded: #d2d5e0ab;
 
 /*General styling*/
 html{
@@ -96,7 +96,7 @@ a:hover{
         }
     
         a:hover{
-            color: $link-blue;
+            color: $linkhover-blue;
             text-decoration: none;
         }
     }
