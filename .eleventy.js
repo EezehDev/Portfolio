@@ -13,7 +13,8 @@ module.exports = function (eleventyConfig) {
         "svg",
         "mp4",
         "jpg",
-        "gif"
+        "gif",
+        "ico"
     ]);
 
     eleventyConfig.setFrontMatterParsingOptions({
