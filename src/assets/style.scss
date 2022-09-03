@@ -281,14 +281,10 @@ a:hover{
             width: 100%;
             border-radius: 1rem;
         }
-
-        div{
-            font-size: 1.2rem;
-            color: $white-faded;
-        }
-
-        div:hover{
-            text-decoration: none;
-        }
     }
+}
+
+.project-description{
+    font-size: 1.2rem;
+    color: $white-faded;
 }
