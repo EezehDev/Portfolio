@@ -1,15 +1,17 @@
 /*Color variables*/
-$brand: #23252b;
-$brand-faded: #23252b77;
-$light-blue: #0074e0;
-$dark-blue: #1965ab;
+$brand: #191b20;
+$brand-faded: #191b2077;
+$background: #202229;
+$link-blue: #0074e0;
+$linkhover-blue: #1965ab;
 $grey: #8f8f8f;
 $white: #ffffff;
 $white-faded: #ffffffab;
 
 /*General styling*/
 html{
-    color: $brand;
+    color: $white;
+    background-color: $background;
 }
 
 .container{
@@ -48,11 +50,11 @@ em{
 a{
     font-size: 1.6rem;
     font-weight: bold;
-    color: $light-blue;
+    color: $link-blue;
 }
 
 a:hover{
-    color: $dark-blue;
+    color: $linkhover-blue;
     text-decoration: underline;
 }
 
