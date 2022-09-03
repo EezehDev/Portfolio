@@ -1,6 +1,5 @@
 /*Color variables*/
 $brand: #191b20;
-$brand-faded: #191b2077;
 $background: #202229;
 $link-blue: #0074e0;
 $linkhover-blue: #1965ab;
@@ -136,7 +135,7 @@ a:hover{
 }
 
 .copyright{
-    color: $brand-faded;
+    color: $white-faded;
     font-size: 1.4rem;
     font-weight: bold;
 }
@@ -285,7 +284,7 @@ a:hover{
 
         div{
             font-size: 1.2rem;
-            color: $brand-faded;
+            color: $white-faded;
         }
     }
 }
