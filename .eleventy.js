@@ -14,6 +14,7 @@ module.exports = function (eleventyConfig) {
         "mp4",
         "jpg",
         "gif",
+        "js",
         "ico"
     ]);
 
