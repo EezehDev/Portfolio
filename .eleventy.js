@@ -66,8 +66,8 @@ module.exports = function (eleventyConfig) {
             <section class="project-cell">
                 <a href="${linkHref}" target="_blank" rel="noopener noreferrer">
                     <div class="project-image-display">
-                        <img class="project-image visible-image" src="/img/${imageSource}.png" alt="${title} img">
-                        <img class="project-image hidden-image ovelay-image" src="/gif/${imageSource}.gif" alt="${title} gif">
+                        <img class="project-image" src="/img/${imageSource}.png" alt="${title} img">
+                        <img class="project-image ovelay-image hidden" src="/gif/${imageSource}.gif" alt="${title} gif">
                     </div>
                     <h3>${title} &Iota; ${date}</h3>
                 </a>

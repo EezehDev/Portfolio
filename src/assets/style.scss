@@ -18,6 +18,14 @@ html{
     margin: 0 auto;
 }
 
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
 @media (max-width: 1200px){
     .container{
         width: 90%;
@@ -278,23 +286,21 @@ a:hover{
         }
     
         .project-image-display{
+            display: grid;
             width: 100%;
-            border-radius: 1rem;
+            grid-template-rows: 100%;
+            grid-template-columns: 100%;
 
             .project-image {
-                display: inline;
-                width: 100%;
-                height: 100%;
+                grid-row: 1;
+                grid-column: 1;
+
+                border-radius: 1rem;
                 z-index: 0;
             }
+
             .ovelay-image {
                 z-index: 1;
-            }
-            .visible-image {
-                visibility: visible;
-            }
-            .hidden-image {
-                visibility: hidden;
             }
         }
     }
