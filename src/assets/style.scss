@@ -277,9 +277,25 @@ a:hover{
             font-weight: bold;
         }
     
-        img{
+        .project-image-display{
             width: 100%;
             border-radius: 1rem;
+
+            .project-image {
+                display: inline;
+                width: 100%;
+                height: 100%;
+                z-index: 0;
+            }
+            .ovelay-image {
+                z-index: 1;
+            }
+            .visible-image {
+                visibility: visible;
+            }
+            .hidden-image {
+                visibility: hidden;
+            }
         }
     }
 }
