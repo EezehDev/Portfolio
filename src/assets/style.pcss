@@ -14,7 +14,7 @@ html{
 }
 
 .container{
-    width: 960px;
+    width: 1024px;
     margin: 0 auto;
 }
 
@@ -260,13 +260,14 @@ a:hover{
 
 .project-grid{
     display: grid;
-    flex-direction: row;
+    
+    width: 100%;
     padding: 4rem 0rem 0rem 0rem;
 
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-    row-gap: 2rem;
-}
+    grid-gap: 2rem;
+} 
+   
 
 @media (max-width: 1200px) {
     .project-grid{
@@ -276,8 +277,9 @@ a:hover{
 }
 
 .project-cell{
+    width: 100%;
+
     a{
-        display: block;
         text-align: left;
 
         h3{
@@ -294,6 +296,7 @@ a:hover{
             grid-template-columns: 100%;
 
             .project-image {
+                width: 100%;
                 grid-row: 1;
                 grid-column: 1;
 
