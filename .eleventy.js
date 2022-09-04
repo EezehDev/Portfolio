@@ -1,6 +1,6 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const pluginSass = require("eleventy-plugin-sass");
+const PostCSSPlugin = require("eleventy-plugin-postcss");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setDataDeepMerge(true);
@@ -18,13 +18,10 @@ module.exports = function (eleventyConfig) {
         "ico"
     ]);
 
+    eleventyConfig.addPlugin(PostCSSPlugin);
+
     eleventyConfig.setFrontMatterParsingOptions({
         excerpt: true,
-    });
-
-    eleventyConfig.addPlugin(pluginSass, {
-        watch: ["src/**/*.{scss,sass}"],
-        cleanCSS: process.env.NODE_ENV === "production",
     });
 
     let md = markdownIt({
@@ -64,7 +61,7 @@ module.exports = function (eleventyConfig) {
         "projectcard",
         function (title, date, subtitle, linkHref, imageSource) {
             return `<section class="project-cell">
-                <a href="${linkHref}" target="_blank" rel="noopener noreferrer" onmouseover="showGif">
+                <a href="${linkHref}" class="hover-image-js" target="_blank" rel="noopener noreferrer">
                     <div class="project-image-display">
                         <img class="project-image" src="/img/${imageSource}.png" alt="${title} img" loading="lazy" />
                         <img class="project-image ovelay-image hidden" src="/gif/${imageSource}.gif" alt="${title} gif" loading="lazy" />
