@@ -13,12 +13,12 @@ title: WouterDeMoor - Fading Light
     </iframe>
     <div class="project-data">
         <div>
-            <div class="data-title">Project Duration</div>
-            <div class="data-text">7 days during 2022 Epic MegaJam</div>
+            <div class="data-title">Project Size</div>
+            <div class="data-text">7 days, 4 people</div>
         </div>
         <div>
-            <div class="data-title">Team Size</div>
-            <div class="data-text">4</div>
+            <div class="data-title">Tools &amp; Languages</div>
+            <div class="data-text">Unreal Engine, Blueprints, GitHub</div>
         </div>
         <div>
             <div class="data-title">Roles</div>
@@ -86,7 +86,7 @@ title: WouterDeMoor - Fading Light
         <a href="https://www.unrealengine.com/marketplace/en-US/product/realistic-starter-vfx-pack-vol">Fire VFX</a> by FX Cat UA </br>
         <a href="https://marketplace-website-node-launcher-prod.ol.epicgames.com/ue/marketplace/en-US/product/niagara-footstep-vfx">Footstep VFX</a> by Sidearm Studios </br>
         </br>
-        Special thanks to my team members: Enzo Mannaert, Thomas Vansteelandt &amp; Isaac Sauer </br>
+        Special thanks to my friends for helping out: Enzo Mannaert, Thomas Vansteelandt &amp; Isaac Sauer </br>
     </div>
 </section>
 
