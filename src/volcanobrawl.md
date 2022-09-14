@@ -33,7 +33,9 @@ title: WouterDeMoor - Volcano Brawl
 <section class="project-section">
     <h3>Description</h3>
     <div class="project-description">
-        You're living your best life out in nature, jumping around like it's nobody's business... Then suddenly BOOM, the local volcano explodes sending volcanic debris all over the place. You must survive at all costs for as long as possible. Good luck!
+        You're living your best life out in nature, jumping around like it's nobody's business... Then suddenly BOOM, the local volcano explodes sending volcanic debris all over the place. You must survive at all costs for as long as possible. Good luck! </br>
+        </br>
+        During this project I was: managing workloads, assisting with general Unity workflow and jumping in where needed. Since one of the programmers got sick, I mostly worked on helping out with code.
     </div>
 </section>
 
@@ -45,7 +47,7 @@ title: WouterDeMoor - Volcano Brawl
             <div>
             My main responsibility was making sure the player could properly move, attack and jump. So I started by implementing a basic movement controller using Unity's built in Character Controller, which comes with a built in ground check that will be just fine for this project. The attack is driven by animation and does a simple overlap to make it easy to use. For the stun mechanic I disabled all movement, and made the player invulnerable for a short duration to avoid infinite stuns.
             </div>
-            <img src="/gif/fadinglight_torch.gif" alt="fadinglight torch" loading="lazy"/>
+            <img src="/img/volcano_controller.png" alt="volcano brawl controller" loading="lazy"/>
         </div>
     </div>
     <div class="project-task-100">
@@ -54,7 +56,7 @@ title: WouterDeMoor - Volcano Brawl
             <div>
             As my second role, I created the lava shader using ShaderGraph and a panning texture. The colors and emission intensity are done through a noise map which only has greyscale values. To give the shader a more realistic look and blend in with the environment, I implemented a depth fade which can be seen where the plane interacts with the environment. Finally I gave the scene some more life by adding simple particle effects.
             </div>
-            <img src="/img/fadinglight_interactables.png" alt="fadinglight interactables" loading="lazy"/>
+            <img src="/gif/volcano_shader.gif" alt="volcano brawl shader" loading="lazy"/>
         </div>
     </div>
 </section>
