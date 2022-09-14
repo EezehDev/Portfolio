@@ -5,7 +5,7 @@ title: WouterDeMoor - Games
 
 <section class="games">
   <h2 class="grid-title">Game Jams</h2>
-  <div class="project-grid container">
+  <div class="projectcard-grid container">
     {% projectcard "Fading Light", "2022 (7 days)", "Adventure game made in UE5 using next gen features. Expanded my knowledge on Lumen, Nanite, AI and much more.", "https://eezehdev.itch.io/fading-light", "fadinglight" %}
     {% projectcard "Volcano Brawl", "2022 (4 days)", "Game jam project made using Unity3D and C#. Helped create the core game loop, shaders written in ShaderGraph, overall QA and project setup.", "https://gwalraet.itch.io/volcano-brawl", "volcano" %}
     {% projectcard "Graveyard Bash", "2021 (48 hours)", "Solo C# programmer for SPOOKY JAM, creating a fast pased melee combat system with endless waves in Unity.", "https://eezehdev.itch.io/graveyard-bash", "graveyardbash" %}
