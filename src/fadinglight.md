@@ -31,7 +31,7 @@ title: WouterDeMoor - Fading Light
     <h3>Description</h3>
     <div class="project-description">
         Keep your light alive as you explore the dark forest looking for a way out. Escaping ends up being harder than you first expected, requiring multiple items scattered around the environment guarded by shades. </br></br>
-        The main goal of this project was to create a hyperrealistic game, while exploring the latest UE5 technology: <a href="https://docs.unrealengine.com/5.0/en-US/lumen-global-illumination-and-reflections-in-unreal-engine/">Lumen</a> and <a href="https://docs.unrealengine.com/5.0/en-US/nanite-virtualized-geometry-in-unreal-engine/">Nanite</a>. Featuring realtime global illumination that is key to the gameplay loop and AI interacting with these lighting conditions.
+        The main goal of this project was to create a hyperrealistic game, while exploring the latest UE5 technology: <a href="https://docs.unrealengine.com/5.0/en-US/lumen-global-illumination-and-reflections-in-unreal-engine/" target="_blank" rel="noopener noreferrer">Lumen</a> and <a href="https://docs.unrealengine.com/5.0/en-US/nanite-virtualized-geometry-in-unreal-engine/" target="_blank" rel="noopener noreferrer">Nanite</a>. Featuring realtime global illumination that is key to the gameplay loop and AI interacting with these lighting conditions.
     </div>
 </section>
 
@@ -78,13 +78,13 @@ title: WouterDeMoor - Fading Light
 <section class="project-section">
     <h3>Credits</h3>
     <div class="project-credits">
-        <a href="https://quixel.com/megascans/home">Environment Assets</a> by Quixel Megascans </br>
-        <a href="https://sketchfab.com/3d-models/rigged-character-free-2faceb3d407647afaa57f618b5675dc9">Character</a> by BlendTek </br>
-        <a href="https://www.mixamo.com/#/">Animations</a> from Mixamo </br>
-        <a href="https://www.thedarkpiano.com/">Music</a> by Myuu </br>
-        <a href="https://www.zapsplat.com/">Sounds</a> from Zapsplat </br>
-        <a href="https://www.unrealengine.com/marketplace/en-US/product/realistic-starter-vfx-pack-vol">Fire VFX</a> by FX Cat UA </br>
-        <a href="https://marketplace-website-node-launcher-prod.ol.epicgames.com/ue/marketplace/en-US/product/niagara-footstep-vfx">Footstep VFX</a> by Sidearm Studios </br>
+        <a href="https://quixel.com/megascans/home" target="_blank" rel="noopener noreferrer">Environment Assets</a> by Quixel Megascans </br>
+        <a href="https://sketchfab.com/3d-models/rigged-character-free-2faceb3d407647afaa57f618b5675dc9" target="_blank" rel="noopener noreferrer">Character</a> by BlendTek </br>
+        <a href="https://www.mixamo.com/#/" target="_blank" rel="noopener noreferrer">Animations</a> from Mixamo </br>
+        <a href="https://www.thedarkpiano.com/" target="_blank" rel="noopener noreferrer">Music</a> by Myuu </br>
+        <a href="https://www.zapsplat.com/" target="_blank" rel="noopener noreferrer">Sounds</a> from Zapsplat </br>
+        <a href="https://www.unrealengine.com/marketplace/en-US/product/realistic-starter-vfx-pack-vol" target="_blank" rel="noopener noreferrer">Fire VFX</a> by FX Cat UA </br>
+        <a href="https://marketplace-website-node-launcher-prod.ol.epicgames.com/ue/marketplace/en-US/product/niagara-footstep-vfx" target="_blank" rel="noopener noreferrer">Footstep VFX</a> by Sidearm Studios </br>
         </br>
         Special thanks to my friends for helping out: Enzo Mannaert, Thomas Vansteelandt &amp; Isaac Sauer </br>
     </div>
