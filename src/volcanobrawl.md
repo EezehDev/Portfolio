@@ -35,7 +35,7 @@ title: WouterDeMoor - Volcano Brawl
     <div class="project-description">
         You're living your best life out in nature, jumping around like it's nobody's business... Then suddenly BOOM, the local volcano explodes sending volcanic debris all over the place. You must survive at all costs for as long as possible. Good luck! </br>
         </br>
-        During this project I was: managing workloads, assisting with general Unity workflow and jumping in where needed. Since one of the programmers got sick, I mostly worked on helping out with code.
+        This project was a great way of improving my planning skills, as I was changing between code and art on the fly. Since one of the programmers got sick, I mostly worked on helping out with code.
     </div>
 </section>
 
