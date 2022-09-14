@@ -46,7 +46,7 @@ title: WouterDeMoor - Home
 <section class="highlights container">
     <h2>Highlighted games</h2>
     <div class="projectcard-grid container">
-        {% projectcard "Fading Light", "2022 (7 days)", "Adventure game made in UE5 using next gen features. Expanded my knowledge on Lumen, Nanite, AI and much more.", "https://eezehdev.itch.io/fading-light", "fadinglight" %}
+        {% projectcard "Fading Light", "2022 (7 days)", "Adventure game made in UE5 using next gen features. Expanded my knowledge on Lumen, Nanite, AI and much more.", "/fadinglight", "fadinglight" %}
         {% projectcard "Oogies Spacepark", "2021 (7 days)", "Epic MegaJam submission created with 4 friends, where I worked in blueprints to develop the interaction and sound system.", "https://enzomannaert.itch.io/oogies-spacepark", "oogiesspacepark" %}
         {% projectcard "Volcano Brawl", "2022 (4 days)", "Game jam project made using Unity3D and C#. Helped create the core game loop, shaders written in ShaderGraph, overall QA and project setup.", "https://gwalraet.itch.io/volcano-brawl", "volcano" %}
     </div>

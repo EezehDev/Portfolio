@@ -42,7 +42,7 @@ title: WouterDeMoor - Fading Light
         <h4>Torch</h4>
         <div class="task-container">
             <div>
-            The core mechanic is the torch, which is attached to a socket and uses realtime light and with a attenuation radius decreasing over time as you move away from safezones, upon losing all light the player dies. Based on a multiplier, the player starts loses light faster as they travel further from safezones. Upon entering a safezone, light will be drained from the campfire and refilled into the torch decreasing the campfire safezone radius. For extra visual player feedback, a decal is projected onto the ground which scales with the light radius. VFX and SFX are also linked to the remaining charge percentage, and become less obvious as the player's torch dims.
+            The core mechanic is the torch, which is attached to a socket and has a light attached which decreases in size over time as you move away from safezones, upon losing all light the player dies. The player starts loses light faster as they travel further from safezones. Upon entering a safezone, light will be drained from the campfire and refilled into the torch decreasing the campfire safezone radius. For extra visual player feedback, a decal is projected onto the ground which scales with the light radius. VFX and SFX are also linked to the remaining charge percentage, and become less obvious as the player's torch dims.
             </div>
             <img src="/gif/fadinglight_torch.gif" alt="fadinglight torch" loading="lazy"/>
         </div>
@@ -53,16 +53,24 @@ title: WouterDeMoor - Fading Light
             <div>
             Using a custom trace channel, the player can interact with items and objects in range. These have some default values and events which made it easy to implement different variations, such as the bridge and item pickups. All items are kept track off through the GameState, making it simple for the rest of the gameplay to communicate with them if needed. The UI displaying the items is completly dynamic, updating with each item pickup.
             </div>
-            <img></img>
+            <img src="/img/fadinglight_interactables.png" alt="fadinglight interactables" loading="lazy"/>
         </div>
     </div>
     <div class="project-task-100">
         <h4>Roaming Shade AI</h4>
         <div class="task-container">
             <div>
-            Until now, the gameplay didn't really have much interaction: so I decided to add an AI that patrols along a path back and forth a path defined by multiple target points navigating on the navmesh based on the information set through the blackboard. Each time it nears the target patrol point, the information will be updated. To make the AI see the player, it has a vision range. When the player enters this vision the AI will switch active state and new data is passed into the blackboard. If the player fails to get to a safezone within a short timeframe, the AI will switch to the chasing state. While chasing, the AI finds the shortest path towards the current player using A*. While chasing the AI is vulernable and can be scared away using the torch attack which sends an animation notify. Succesfully chasing it away will cause a respawn over time, at a random patrol point. Failing to chase it away and letting the AI overlap causes it to despawn and decreases some of the players light.
+            Until now, the gameplay didn't really have much interaction: so I decided to add an AI that is controlled using a behavior tree with blackboard. Patrolling is done using multiple target points, where each time it nears the target patrol point, information is updated and the next point will be set as target. When the player enters the AI's vision range it will switch into the alert state. If the player fails to get to a safezone within a short timeframe, the AI will start chasing: finding the shortest path towards the current player using A* and becoming vulernable to attacks. Successfully attacking or getting hit by the AI will cause it to respawn at a random patrol point after a delay.
             </div>
-            <img></img>
+            <img src="/img/fadinglight_ai.png" alt="fadinglight AI" loading="lazy"/>
+        </div>
+    </div>
+    <div class="project-task-100">
+        <h4>Polish</h4>
+        <div class="task-container">
+            <div>
+            To finish it all up, I implemented some sounds and VFX. For the footsteps, sound is played when the feet hit the ground based on the surface type underneath the foot. I then tweaked some VFX to match the assets used and made them interact with some of the gameplay, using their parameters.
+            </div>
         </div>
     </div>
 </section>

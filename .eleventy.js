@@ -61,7 +61,7 @@ module.exports = function (eleventyConfig) {
         "projectcard",
         function (title, date, subtitle, linkHref, imageSource) {
             return `<section class="projectcard-cell">
-                <a href="${linkHref}" class="hover-image-js" target="_blank" rel="noopener noreferrer">
+                <a href="${linkHref}" class="hover-image-js">
                     <div class="projectcard-image-display">
                         <img class="projectcard-image" src="/img/${imageSource}.png" alt="${title} img" loading="lazy" />
                         <img class="projectcard-image ovelay-image hidden" src="/gif/${imageSource}.gif" alt="${title} gif" loading="lazy" />
