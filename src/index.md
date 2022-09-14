@@ -15,11 +15,11 @@ title: WouterDeMoor - Home
         <div class="skill-div">
             <h3>Languages</h3>
             <ul class="skill-list">
-                <li>C#</li>
                 <li>C++</li>
+                <li>C#</li>
                 <li>HLSL</li>
-                <li>JavaScript &amp; HTML</li>
-                <li>CSS &amp; Sass</li>
+                <li>SQL</li>
+                <li>HTML &amp; CSS</li>
             </ul>
         </div>
         <div class="skill-div">
