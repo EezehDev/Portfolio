@@ -4,7 +4,10 @@ title: WouterDeMoor - Volcano Brawl
 ---
 
 <article class="project-page container">
-<h2 class="project-title">Volcano Brawl</h2>
+<div class="project-page-head">
+    <a href="/games">< Return to Games</a>
+    <h2 class="project-title">Volcano Brawl</h2>
+</div>
 <div class="project-intro">
     <iframe class="project-video"
     title="Volcano Brawl - Gameplay Preview"
@@ -35,7 +38,7 @@ title: WouterDeMoor - Volcano Brawl
     <div class="project-description">
         You're living your best life out in nature, jumping around like it's nobody's business... Then suddenly BOOM, the local volcano explodes sending volcanic debris all over the place. You must survive at all costs for as long as possible. Good luck! </br>
         </br>
-        This project was a great way of improving my planning skills, as I was changing between code and art on the fly. Since one of the programmers got sick, I mostly worked on helping out with code.
+        This project was a great way of improving my planning skills, as I was changing between code and art on the fly. Since one of the programmers got sick, I mostly helped out with code once the basic pipeline and lava shader was set up.
     </div>
 </section>
 

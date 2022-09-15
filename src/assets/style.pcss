@@ -324,11 +324,18 @@ a:hover{
     color: $white-faded;
 }
 
-.project-title{
-    margin-top: 1.5rem;
-    margin-bottom: 3rem;
-    text-align: center;
-    width: auto;
+.project-page-head{
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+    margin: 1rem 0 3rem 0;
+
+    .project-title{
+        text-align: center;
+        width: auto;
+    }
 }
 
 .project-intro{

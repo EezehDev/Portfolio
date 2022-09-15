@@ -4,7 +4,10 @@ title: WouterDeMoor - Fading Light
 ---
 
 <article class="project-page container">
-<h2 class="project-title">Fading Light</h2>
+<div class="project-page-head">
+    <a href="/games">< Return to Games</a>
+    <h2 class="project-title">Fading Light</h2>
+</div>
 <div class="project-intro">
     <iframe class="project-video"
     title="Fading Light - Gameplay Trailer"
@@ -28,10 +31,11 @@ title: WouterDeMoor - Fading Light
 </div>
 
 <section class="project-section">
-    <h3>Description</h3>
+    <h3>Project Summary</h3>
     <div class="project-description">
-        Keep your light alive as you explore the dark forest looking for a way out. Escaping ends up being harder than you first expected, requiring multiple items scattered around the environment guarded by shades. </br></br>
-        The main goal of this project was to create a hyperrealistic game, while exploring the latest UE5 technology: <a href="https://docs.unrealengine.com/5.0/en-US/lumen-global-illumination-and-reflections-in-unreal-engine/" target="_blank" rel="noopener noreferrer">Lumen</a> and <a href="https://docs.unrealengine.com/5.0/en-US/nanite-virtualized-geometry-in-unreal-engine/" target="_blank" rel="noopener noreferrer">Nanite</a>. Featuring realtime global illumination that is key to the gameplay loop and AI interacting with these lighting conditions.
+        Keep your light alive as you explore the dark forest looking for a way out. Escaping ends up being harder than you first expected, requiring multiple items scattered around the environment guarded by shades.</br></br>
+        Our main goal was to create a hyperrealistic game, while exploring the latest UE5 technology: <a href="https://docs.unrealengine.com/5.0/en-US/lumen-global-illumination-and-reflections-in-unreal-engine/" target="_blank" rel="noopener noreferrer">Lumen</a> and <a href="https://docs.unrealengine.com/5.0/en-US/nanite-virtualized-geometry-in-unreal-engine/" target="_blank" rel="noopener noreferrer">Nanite</a>. Featuring realtime global illumination that is key to the gameplay loop and AI interacting with these lighting conditions. </br></br>
+        Making a game using Lumen turned out to be harder than expected. Since this system is fairly new and none of us had much experience on profiling the system, we relied on straightforward techniques such as: lower texture resolutions, LODs, having actors run at lower tickrate, events and avoiding memory allocations as much as possible.
     </div>
 </section>
 
