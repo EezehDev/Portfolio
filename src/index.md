@@ -56,7 +56,7 @@ title: WouterDeMoor - Home
     <h2>Academic projects</h2>
     <div class="projectcard-grid container">
         {% projectcard "Bomberman", "2022", "Custom DirectX C++ engine and Bomberman remake. Implementing DirectX render logic and pipeline, gameplay written in C++ and shaders in HLSL.", "/bomberman", "bomberman" %}
-        {% projectcard "Bikin Ice", "2022", "Group project together with 4 other students, testing our project management and teamwork skills while developing a fun co-op game.", "https://lukaverhelle.itch.io/bikinice", "bikinice" %}
+        {% projectcard "Bikin Ice", "2022", "Group project together with 4 other students, testing our project management and teamwork skills while developing a fun co-op game.", "/bikinice", "bikinice" %}
         {% projectcard "Burger Time", "2022", "Burger Time remake using my self made engine powered by C++/SDL. Gameplay implemented using programming design patterns (command, prototype, state, ...).", "/burgertime", "burgertime" %}
     </div>
     <div class="viewall">

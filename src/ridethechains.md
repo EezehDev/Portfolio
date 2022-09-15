@@ -39,7 +39,7 @@ title: WouterDeMoor - Ride the Chains
 </section>
 
 <section class="project-section">
-    <h3>My Contribution</h3>
+    <h3>A New Challenge</h3>
     <div class="project-task-100">
         <div class="task-container">
             <div>
