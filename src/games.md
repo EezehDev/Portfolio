@@ -11,7 +11,7 @@ title: WouterDeMoor - Games
     {% projectcard "Graveyard Bash", "2021", "Solo C# programmer for SPOOKY JAM, creating a fast pased melee combat system with endless waves in Unity.", "/graveyardbash", "graveyardbash" %}
     {% projectcard "Oogies Spacepark", "2021", "Epic MegaJam submission created with 4 friends, where I worked in blueprints to develop the interaction and sound system.", "/oogiesspacepark", "oogiesspacepark" %}
     {% projectcard "Press R", "2021", "Kenney Jam submission, a fun little platformer made together with a friend in Unity C#.", "/pressr", "pressr" %}
-    {% projectcard "RideTheChains", "2021", "MashUp Game Jam 2 submission made with a couple of friends, worked on the endless loop system and helped with combat behavior using Unity.", "https://tomstevens.itch.io/ridethechains", "ridethechains" %}
+    {% projectcard "RideTheChains", "2021", "MashUp Game Jam 2 submission made with a couple of friends, worked on the endless loop system and helped with combat behavior using Unity.", "/ridethechains", "ridethechains" %}
     {% projectcard "Unarmed", "2021", "DAE Virtual Easter JAM, my first ever game jam together with 4 students. Team captain and lead developer, made with Unity.", "https://eezehdev.itch.io/unarmed", "unarmed" %}
   </div>
 </section>
