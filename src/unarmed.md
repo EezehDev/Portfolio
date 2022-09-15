@@ -38,18 +38,18 @@ title: WouterDeMoor - Unarmed
     <div class="project-description">
         Charlie The Wizard is looking for a new wand to equip. Will finding one fulfil his destiny? Play till the end to find out! </br>
         </br>
-        This was my first game jam, I decided to participate with strangers at the time who have since become friends. Over the course of the jam I learned so much about: managing time, planning, dividing work, communication and what teamwork is about.
+        This was my first game jam, which was both an exciting and nerve wracking experience. Over the course of the jam I learned a lot about: managing time, planning, dividing work, communication and what teamwork is about. This first experience got me hooked and motivated to make more games and join more game jams.
     </div>
 </section>
 
 <section class="project-section">
-    <h3>The Combat System</h3>
+    <h3>My Contribution</h3>
     <div class="project-task-100">
         <div class="task-container">
             <div>
-            With my limited knowledge in art, I decided it was time to challenge myself and attempt to make multiple models with animations. Rigging and modeling was done in Blender before exporting into Unity, where the arms were seperated to rotate them towards the player mouse.
+            We had the idea of throwing weapons instead of actually equipping them, so I started by using line traces to detect the player clicking on weapons lying around. Later on, I realised this wasn't the best approach as it meant the player had to exactly click on the weapons. To fix this, all weapons within a short radius from the click would be tested and the nearest one would be picked up. Upon releasing the mouse button, Charlie the mage yeets the weapon forward. The way weapons interact is different for each one: the shield can bounce while the sword pierces through multiple enemies. Next up was the AI, which was my first time using pathfinding in Unity. They are set up to follow the player along the navmesh, and stop at their attack range. Because time was running short, their attack simply uses an overlap box with a delay.
             </div>
-            <img src="/gif/graveyardbash_combat.gif" alt="graveyard bash combat" loading="lazy"/>
+            <img src="/gif/unarmed_combat.gif" alt="unarmed combat" loading="lazy"/>
         </div>
     </div>
 </section>
