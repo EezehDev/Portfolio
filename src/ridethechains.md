@@ -39,11 +39,15 @@ title: WouterDeMoor - Ride the Chains
 </section>
 
 <section class="project-section">
-    <h3>A New Challenge</h3>
+    <h3>My Contribution</h3>
     <div class="project-task-100">
         <div class="task-container">
             <div>
-            With my limited knowledge in art, I decided it was time to challenge myself and attempt to make multiple models with animations. Rigging and modeling was done in Blender before exporting into Unity, where the arms were seperated to rotate them towards the player mouse. I then implemented the weapon and projectile system, which allowed for different weapon fire rates, multiple projectiles exposed in the prefab through some parameters. To fake the effect of infinite movement, the environment moves down while the platform remains stationary. Once the environment objects are out of player sight, they are teleported above the player and reused. During polish, I added some simple particles using only planes and set up a basic post processing stack.
+            First of all I made some models and rigs using Blender before exporting into Unity, where the arms were seperated to rotate them towards the player mouse.</br>
+            </br>
+            I then implemented the weapon and projectile system, which allowed for different weapon fire rates and multiple projectiles.</br>
+            </br>
+            To fake the effect of infinite movement, the environment moves down while the platform remains stationary. Once the environment objects are out of player sight, they are teleported above the player and reused.
             </div>
             <img src="/gif/ridethechains_visuals.gif" alt="ridethechains visuals" loading="lazy"/>
         </div>
