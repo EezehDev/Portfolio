@@ -43,7 +43,15 @@ title: WouterDeMoor - Press R
     <div class="project-task-100">
         <div class="task-container">
             <div>
-            Our core mechanic was the rotating platforms, which freezes time for a brief moment as the platform rotates. Together with this mechanic we thought it would be a good idea to mix some well known platformer classics: gravity switching, collectables and traps. To make the gravity work, we wrote a custom player controller which could rotate the player visuals and change the direction of gravity. This controller was later extended to support launching the character and push or drag objects around making use of rigidbodies and simple overlaps combined with the movement input.
+            The core mechanic of the game is the rotating platforms, which freezes time for a brief moment as the platform rotates. </br>
+            </br>
+            To add more depth, following features were added:
+            <ul class="dot-list">
+                <li>Gravity Switching</li>
+                <li>Springs</li>
+                <li>Traps</li>
+            </ul></br>
+            In order to switch gravity, a custom player controller was needed which could rotate the player visuals and change the direction of gravity. This controller was later extended to support launching the character.
             </div>
             <img src="/gif/pressr_jumping.gif" alt="pressr platforming" loading="lazy"/>
         </div>
