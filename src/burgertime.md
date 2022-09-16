@@ -37,15 +37,30 @@ title: WouterDeMoor - Burger Time
     <h3>Assignment</h3>
     <div class="project-description">
         The assignment was split into two parts: </br>
-        - Create a 2D game engine using shown techniques (game loop, game design patterns, threading) </br>
-        - Remake Burger Time using the engine</br>
+        <ul class="dot-list margin-top-small">
+            <li>Create a 2D game engine using shown techniques (game loop, game design patterns, threading) </li>
+            <li>Remake Burger Time using the engine</li>
+        </ul>   
         </br>
         Creating the engine was the most important part, while the recreation of this game was mostly to test the engine capabilities and to test problem solving skills. While working on the gameplay, I often found my engine to be lacking features I needed so it was quite a bit of back and forth. The project was implemented following the C++ Coding Standards as much as possible.
     </div>
 </section>
 
 <section class="project-section">
-    <h3>Minigin Engine</h3>
+    <h3>Engine Features</h3>
+    <ul class="dot-list">
+        <li>Game Loop (Update, FixedUpdate, Render &amp; Input)</li>
+        <li>SceneGraph with GameObjects and Components</li>
+        <li>2D SDL Renderer with depth sorting</li>
+        <li>Input Manager using Command and pImpl</li>
+        <li>Multithreaded Sound System</li>
+        <li>Observer &amp; Event Queue</li>
+        <li>Prefabs</li>
+    </ul>
+</section>
+
+<section class="project-section">
+    <h3>Implementation</h3>
     <div class="project-task-100">
         <h4>Game Loop</h4>
         <div class="task-container">
