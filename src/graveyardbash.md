@@ -46,7 +46,7 @@ title: WouterDeMoor - Graveyard Bash
             My main challenge was to create a simple combat system, for which I set up reusable components for health and a base class to use for each enemy.</br>
             </br>
             Using box colliders set to overlap, I could easily check when an enemy is in range and tell the health component to apply damage.
-            This workflow allowed for a fairly quick implementation of 3 different enemies and spawn them in waves.
+            This workflow allowed for a fairly quick implementation of 3 different enemies and the ability to spawn them in waves.
             </div>
             <img src="/gif/graveyardbash_combat.gif" alt="graveyard bash combat" loading="lazy"/>
         </div>
