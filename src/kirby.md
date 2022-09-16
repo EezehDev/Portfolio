@@ -38,7 +38,18 @@ title: WouterDeMoor - Kirby
     <div class="project-description">
         The assignment was to recreate a 2D sidescroller/platformer. Which better game to choose than Kirby! Super Stars has been a personal favorite so I didn't want to miss out on this opportunity and gave it my best, considering the little knowledge I had back then.</br>
         </br>
-        The project code itself isn't clean by any means and I would do so many things different now, but it displays how much I've learned over the years and how far we can get with some dedication. Besides this, it also reminds me to not abuse OOP. Planning ahead in terms of time and project structure is an important lesson learned.
+        This project displays how much I've learned over the years and how far we can get with some dedication. It also reminds me to not abuse OOP. Planning ahead in terms of time and project structure is an important lesson learned.
     </div>
+</section>
+
+<section class="project-section">
+    <h3>Game Features</h3>
+    <ul class="dot-list">
+        <li>File based Level Collision</li>
+        <li>Particle System</li>
+        <li>Collision Logic</li>
+        <li>State Machine</li>
+        <li>Parallax Backgrounds</li>
+    </ul>
 </section>
 </article>
