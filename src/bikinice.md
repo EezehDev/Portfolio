@@ -48,7 +48,9 @@ title: WouterDeMoor - Bikin'Ice
         <h4>Bike Physics Controller</h4>
         <div class="task-container">
             <div>
-            The core of the controller consists of a Rigidbody attached to a sphere collider, to which forces are applied based on the visual direction of the player. This simplifies physics dramatically, and seperates the physics from the player visuals while giving a fairly decent arcade like feeling and mainting the core integrity of real world physics. Each fixed update, the player visuals are teleported to the location of the sphere. To make controlling a bit easier, there are extra forces applied to slow down and avoid sliding or drifting. The drag and sideways forces are reduced during drift, making the surface feel more slippery. The actual rotation of the wheels and steering wheel are added based on the Rigidbody values, and used to guide the character IK controls.
+            The core of the controller consists of a Rigidbody attached to a sphere collider, to which forces are applied based on the visual direction of the player. This simplifies physics dramatically, and seperates the physics from the player visuals. </br>
+            </br>
+            To make controlling a bit easier, there are extra forces applied to slow down and avoid sliding or drifting. The drag and sideways forces are reduced during drift, making the surface feel more slippery.
             </div>
             <img src="/gif/bikinice_physics.gif" alt="bikinice physics" loading="lazy"/>
         </div>
@@ -57,7 +59,9 @@ title: WouterDeMoor - Bikin'Ice
         <h4>Local Co-Op</h4>
         <div class="task-container">
             <div>
-            Using Unity's Input System, I set up multiplayer controls by binding each controller to a specific input user. This makes sure that every controller only receives input from one gamepad. Correctly binding these controls turned out to be quite tricky as the default player input manager didn't quite cover the needed features. So instead, I wrote a system which is similar to how Unreal Engine handles multiplayer: each player has their own playercontroller which can possess a player, from there it updates the camera viewport and UI accordingly. Talking about UI, a script was made to convert the fullscreen HUD to correct anchor points and sizes whenever the splitscreen index was changed.
+            Using Unity's Input System, I set up multiplayer controls by binding each controller to a specific input user. This makes sure that every controller only receives input from one gamepad.</br>
+            </br>
+            Correctly binding these controls turned out to be quite tricky as the default player input manager didn't quite cover the needed features. So instead, I wrote a system which is similar to how Unreal Engine handles multiplayer: each player has their own playercontroller which can possess a player, from there it updates the camera viewport and UI accordingly.
             </div>
             <img src="/gif/bikinice_coop.gif" alt="bikinice co-op" loading="lazy"/>
         </div>
@@ -66,7 +70,9 @@ title: WouterDeMoor - Bikin'Ice
         <h4>Player Feedback</h4>
         <div class="task-container">
             <div>
-            During the last few weeks, I spent most of my time adding support for SFX, VFX and general player feedback. The sound system implemented, covers both 2D audio as well as 3D audio with linear falloff based on the nearest camera. Additional feedback through gamepad vibration and camera shake are handled through the player controller, which keeps track of the highest priority and updates durations before applying the effect.
+            During the last few weeks, I spent most of my time adding support for SFX, VFX and general player feedback. The sound system implemented, covers both 2D audio as well as 3D audio with linear falloff based on the nearest camera. </br>
+            </br>
+            Additional feedback through gamepad vibration and camera shake are handled through the player controller, which keeps track of the highest priority and updates durations before applying the effect.
             </div>
             <img src="/gif/bikinice_feedback.gif" alt="bikinice physics" loading="lazy"/>
         </div>
