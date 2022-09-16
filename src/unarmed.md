@@ -47,7 +47,15 @@ title: WouterDeMoor - Unarmed
     <div class="project-task-100">
         <div class="task-container">
             <div>
-            We had the idea of throwing weapons instead of actually equipping them, so I started by using line traces to detect the player clicking on weapons lying around. Later on, I realised this wasn't the best approach as it meant the player had to exactly click on the weapons. To fix this, all weapons within a short radius from the click would be tested and the nearest one would be picked up. Upon releasing the mouse button, Charlie the mage yeets the weapon forward. The way weapons interact is different for each one: the shield can bounce while the sword pierces through multiple enemies. Next up was the AI, which was my first time using pathfinding in Unity. They are set up to follow the player along the navmesh, and stop at their attack range. Because time was running short, their attack simply uses an overlap box with a delay.
+            Weapons can be picked up by clicking near them, using a combination of raycast and spherecast. Upon releasing the mouse button, Charlie the wizard throws the weapon forward.</br>
+            </br>
+            Each weapons interacts differently:
+            <ul class="dot-list">
+                <li>Shield can bounce off walls and enemies</li>
+                <li>Sword pierces through multiple foes</li>
+                <li>Axe flies in an arc and makes a big impact</li>
+            </ul></br>
+            The AI is implemented using Nav Mesh Agents, damaging the player when they get too close.
             </div>
             <img src="/gif/unarmed_combat.gif" alt="unarmed combat" loading="lazy"/>
         </div>

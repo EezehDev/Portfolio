@@ -43,7 +43,7 @@ title: WouterDeMoor - Volcano Brawl
 </section>
 
 <section class="project-section">
-    <h3>My Contributions</h3>
+    <h3>My Contribution</h3>
     <div class="project-task-100">
         <h4>Player Controller</h4>
         <div class="task-container">
