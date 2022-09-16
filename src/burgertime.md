@@ -65,7 +65,15 @@ title: WouterDeMoor - Burger Time
         <h4>Game Loop</h4>
         <div class="task-container">
             <div>
-            The core of a game loop is straightforward: in an infinite loop, update all gameobjects and render the visuals once each iteration. But this comes with a few issues: first of all, running an infinite loop will occupy a full thread without giving it much breathing room which results in a variable framerate. To lower thread workload, a fixed framerate can be used which is done by calculating the frame execution time and letting the thread sleep until the total time passed executes the frame time or optionally framerate can be smoothed by having an average fixed framerate based on execution time of last frames. For systems that need a fixed step, an extra while loop can be added which executes as long as the accumulated time exceeds the fixed timestep (also known as FixedUpdate, used for Networking and Physics).
+            The core gameloop is an infinite loop with following steps:
+            <ol class="number-list">
+                <li>Calculate frame time</li>
+                <li>Update all GameObjects and their Children / Components</li>
+                <li>Render visuals to game window</li>
+            </ol> </br>
+            To make sure our main thread does not run all the time, we can implement a fixed or smooth framerate by using the frame time and sleeping for a short time between each iteration.</br>
+            </br>
+            One more important thing to keep in mind is physics and networking, these should run on a fixed interval. To implement this, simply add another loop which runs while the accumulated time exceeds a fixed timestep.
             </div>
             <div class="image-subtext-container">
                 <img src="/img/burgertime_gameloop.png" alt="burgertime game loop" loading="lazy"/>
@@ -77,7 +85,17 @@ title: WouterDeMoor - Burger Time
         <h4>Input System using pImpl</h4>
         <div class="task-container">
             <div>
-            The implemented input systemn supports both keyboard and controller (using xinput). In order to check active controls, the input state needs to be checked. XInput makes this fairly easy, as it uses bitmasking allowing to easily check what is pressed, held or released on the current frame. To know which actions to execute, a container is needed which contains input bindings: which is a combination of the key/keycode, state (pressed, held, released) and the action. Each frame, all input bindings in the container will be checked and required actions are executed. The actions themselves, are implemented using the Command pattern which is essentially a class that contains an execute function that can be overriden together with some state data. Since the input works for windows only: pImpl was used, making it possible to replace the implementation without changing the abstract definition and usage of the system.
+            By comparing the previous controller and keyboard states it is possible to know which key is pressed, released or held this frame. </br>
+            </br>
+            Next, a few steps are needed to set up bindings:
+            <ol class="number-list">
+                <li>Create a container with keycode, keystate and command</li>
+                <li>Compare container with keyboard and controller state</li>
+                <li>Execute the commands</li>
+            </ol> </br>
+            For input actions command classes are used, as they offer an abstract interface for the input system while also being able to hold state data if needed.</br>
+            </br>
+            The implementation of the input system itself makes use of pImpl, allowing for changes to the implementation and underlying systems without changing the interface.
             </div>
             <div class="image-subtext-container">
                 <img src="/img/burgertime_inputsystem.png" alt="burgertime inputsystem" loading="lazy"/>
@@ -89,19 +107,13 @@ title: WouterDeMoor - Burger Time
         <h4>Subject &amp; Observer</h4>
         <div class="task-container">
             <div>
-            To implement events, there needs to be a subject observer relationship. The subject needs to know who is observing, while the observer needs to be able to observe the subject. I chose for an easy implementation, where both Observer and Subject are base classes that can be derived from. The observer can then subscribe to any class that derives from subject, and listen for all the notifications. These notifications can be further filtered using an enum while data can be sent using a container class. One more issue exists: if the observer or subject gets destroyed the other needs to be aware. Luckily, in C++ this can easily be fixed by using weak pointers and checking if they are still valid.
+            To implement events, there needs to be a subject observer relationship. The subject needs to know who is observing, while the observer needs to be able to observe the subject. </br>
+            </br>
+            I chose for an easy implementation, where both Observer and Subject are base classes that can be derived from. The observer can then subscribe to any class that derives from subject, and listen for any notifications sent by the Subject.
             </div>
             <div class="image-subtext-container">
                 <img src="/img/burgertime_observer.png" alt="burgertime observer" loading="lazy"/>
                 Image from Game Programming Patterns, Robert Nystrom
-            </div>
-        </div>
-    </div>
-    <div class="project-task-100">
-        <h4>Sound System</h4>
-        <div class="task-container">
-            <div>
-            Using multithreading, the sound system will queue sounds and open channels without interferring or blocking the main game thread. This is needed because audio files can be fairly large in size and audio channels aren't opened instantly either.
             </div>
         </div>
     </div>
