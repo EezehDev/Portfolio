@@ -92,9 +92,7 @@ title: WouterDeMoor - Bomberman
         <h4>Post Processing</h4>
         <div class="task-container">
             <div>
-            As the name suggests, this technique is applied at the end of the render pipeline. </br>
-            </br>
-            I went for a bloom effect, which is done through multiple steps</br>
+            As the name suggests, this technique is applied at the end of the render pipeline. To achieve a bloom effect, we need to take a few steps.</br>
             <ol class="number-list">
                 <li>Seperate the bright values onto new texture</li>
                 <li>Blur the texture using Gaussian blur</li>
