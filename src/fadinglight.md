@@ -34,19 +34,33 @@ title: WouterDeMoor - Fading Light
     <h3>Project Summary</h3>
     <div class="project-description">
         Keep your light alive as you explore the dark forest looking for a way out. Escaping ends up being harder than you first expected, requiring multiple items scattered around the environment guarded by shades.</br></br>
-        Our main goal was to create a hyperrealistic game, while exploring the latest UE5 technology: <a href="https://docs.unrealengine.com/5.0/en-US/lumen-global-illumination-and-reflections-in-unreal-engine/" target="_blank" rel="noopener noreferrer">Lumen</a> and <a href="https://docs.unrealengine.com/5.0/en-US/nanite-virtualized-geometry-in-unreal-engine/" target="_blank" rel="noopener noreferrer">Nanite</a>. Featuring realtime global illumination that is key to the gameplay loop and AI interacting with these lighting conditions. </br></br>
-        Making a game using Lumen turned out to be harder than expected. Since this system is fairly new and none of us had much experience on profiling the system, we relied on straightforward techniques such as: lower texture resolutions, LODs, having actors run at lower tickrate, events and avoiding memory allocations as much as possible.
+        Our main goal was to create a hyperrealistic game, while exploring the latest UE5 technology: <a href="https://docs.unrealengine.com/5.0/en-US/lumen-global-illumination-and-reflections-in-unreal-engine/" target="_blank" rel="noopener noreferrer">Lumen</a> and <a href="https://docs.unrealengine.com/5.0/en-US/nanite-virtualized-geometry-in-unreal-engine/" target="_blank" rel="noopener noreferrer">Nanite</a>. Featuring realtime global illumination that is key to the gameplay loop and AI interacting with these lighting conditions.
     </div>
 </section>
 
 <section class="project-section">
-    <h3>My Contributions</h3>
+    <h3>My Contribution</h3>
+    <ul class="dot-list">
+        <li>Torch mechanic</li>
+        <li>Patrolling shade AI</li>
+        <li>Immersive Sound System</li>
+        <li>Interactables</li>
+        <li>Player feedback</li>
+        <li>Gameplay Testing</li>
+        <li>VFX</li>
+    </ul>
+</section>
+
+<section class="project-section">
+    <h3>Implementation</h3>
     <div class="project-task-100 italic">Note: all gameplay logic is written using Blueprints.</div>
     <div class="project-task-100">
         <h4>Torch</h4>
         <div class="task-container">
             <div>
-            The core mechanic is the torch, which is attached to a socket and has a light attached which decreases in size over time as you move away from safezones, upon losing all light the player dies. The player starts loses light faster as they travel further from safezones. Upon entering a safezone, light will be drained from the campfire and refilled into the torch decreasing the campfire safezone radius. For extra visual player feedback, a decal is projected onto the ground which scales with the light radius. VFX and SFX are also linked to the remaining charge percentage, and become less obvious as the player's torch dims.
+            The core mechanic is the torch: which is attached to a socket on the player's hand. The torch light decreases over time as you move away from safezones, running out of light causes the player to die. The further you move, the faster your light dims.</br>
+            </br>
+            Upon entering a safezone, light will be drained from the campfire and refilled into the torch decreasing the campfire safezone radius. A decal is projected on the ground to display remaining light.
             </div>
             <img src="/gif/fadinglight_torch.gif" alt="fadinglight torch" loading="lazy"/>
         </div>
@@ -55,7 +69,9 @@ title: WouterDeMoor - Fading Light
         <h4>Interactables</h4>
         <div class="task-container">
             <div>
-            Using a custom trace channel, the player can interact with items and objects in range. These have some default values and events which made it easy to implement different variations, such as the bridge and item pickups. All items are kept track off through the GameState, making it simple for the rest of the gameplay to communicate with them if needed. The UI displaying the items is completly dynamic, updating with each item pickup.
+            Using a custom trace channel, the player can interact with items and objects in range. These have some default values and events which made it easy to implement different variations, such as the bridge and item pickups.</br>
+            </br>
+            All items are kept track off through the GameState, making it simple for the rest of the gameplay to communicate with them if needed.
             </div>
             <img src="/img/fadinglight_interactables.png" alt="fadinglight interactables" loading="lazy"/>
         </div>
@@ -64,17 +80,15 @@ title: WouterDeMoor - Fading Light
         <h4>Roaming Shade AI</h4>
         <div class="task-container">
             <div>
-            Until now, the gameplay didn't really have much interaction: so I decided to add an AI that is controlled using a behavior tree with blackboard. Patrolling is done using multiple target points, where each time it nears the target patrol point, information is updated and the next point will be set as target. When the player enters the AI's vision range it will switch into the alert state. If the player fails to get to a safezone within a short timeframe, the AI will start chasing: finding the shortest path towards the current player using A* and becoming vulernable to attacks. Successfully attacking or getting hit by the AI will cause it to respawn at a random patrol point after a delay.
+            Since the gameplay lacked some tension I decided to add an AI using behavior tree and blackboard. This AI has a few behaviors:
+            <ul class="dot-list">
+                <li>Patrol the area using target points</li>
+                <li>Alert and chase player</li>
+                <li>Flee when attacked by player</li>
+            </ul></br>
+            To navigate the world, a navmesh is used in combination with the built in A* pathfinding.
             </div>
             <img src="/img/fadinglight_ai.png" alt="fadinglight AI" loading="lazy"/>
-        </div>
-    </div>
-    <div class="project-task-100">
-        <h4>Polish</h4>
-        <div class="task-container">
-            <div>
-            To finish it all up, I implemented some sounds and VFX. For the footsteps, sound is played when the feet hit the ground based on the surface type underneath the foot. I then tweaked some VFX to match the assets used and made them interact with some of the gameplay, using their parameters.
-            </div>
         </div>
     </div>
 </section>
