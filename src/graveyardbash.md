@@ -34,7 +34,7 @@ title: WouterDeMoor - Graveyard Bash
     <div class="project-description">
         Fight your way out of the graveyard as you face the undead blocking your path and hungering for some delicious bunny meat. </br>
         </br>
-        This was the first game jam where I was the only programmer, the pressure was on to make sure all the features were present and well tested. Making a solid combat system in such a short timeframe ended up being a bumpy adventure: with quite a few crashes, unexpected results and game breaking bugs. Had a lot of fun making this one, while also getting a good understanding of what can be done in such little time.
+        This was the first game jam where I was the only programmer, in which I had to come up with a simple yet flexible combat system.
     </div>
 </section>
 
