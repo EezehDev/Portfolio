@@ -44,6 +44,19 @@ title: WouterDeMoor - Bomberman
 </section>
 
 <section class="project-section">
+    <h3>Project Features</h3>
+    <ul class="dot-list">
+        <li>HLSL Shaders</li>
+        <li>Sprite &amp; Text Renderer</li>
+        <li>Character Controller using PhysX</li>
+        <li>Skinned Meshes &amp; Hardware Animations</li>
+        <li>Dynamic Shadow Mapping</li>
+        <li>Particle System</li>
+        <li>Post Processing Stack</li>
+    </ul>
+</section>
+
+<section class="project-section">
     <h3>Implementation</h3>
     <div class="project-task-100">
         <div class="task-container">
