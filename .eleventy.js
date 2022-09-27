@@ -15,7 +15,8 @@ module.exports = function (eleventyConfig) {
         "jpg",
         "gif",
         "js",
-        "ico"
+        "ico",
+        "pdf"
     ]);
 
     eleventyConfig.addPlugin(PostCSSPlugin);

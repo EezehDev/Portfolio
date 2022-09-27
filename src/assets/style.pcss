@@ -5,7 +5,7 @@ $link-red: #de4641;
 $linkhover-red: #bb3a35;
 $grey: #8f8f8f;
 $white: #e6ecf1;
-$white-faded: #e6ecf1ab;
+$white-faded: #e6ecf1bf;
 
 /*General styling*/
 html{
@@ -40,7 +40,7 @@ html{
 
 .content {
     flex: 1 0 auto;
-    margin-top: 8rem;
+    margin-top: 10rem;
     margin-bottom: 4rem;
 }
 
@@ -87,6 +87,7 @@ a:hover{
     .header-div{
         display: grid;
         flex-direction: row;
+        align-items: center;
         grid-template-columns: 1fr 1fr;
 
         font-weight: bold;
@@ -100,7 +101,8 @@ a:hover{
         nav{
             display: grid;
             flex-direction: row;
-            grid-template-columns: repeat(2, auto);
+            align-items: center;
+            grid-template-columns: repeat(3, auto);
             column-gap: 2.5rem;
         
             grid-column-start: 2;
@@ -117,6 +119,17 @@ a:hover{
         a:hover{
             color: $linkhover-red;
             text-decoration: none;
+        }
+
+        .nav-button{
+            padding: 1.2rem 2.2rem;
+            border-radius: 3rem;
+            background-color: $link-red;
+        }
+
+        .nav-button:hover{
+            color: $white;
+            background-color: $linkhover-red;
         }
     }
 }
@@ -176,7 +189,7 @@ a:hover{
     display: grid;
     flex-direction: row;
     justify-content: left;
-    padding: 4.5rem 0 8rem 0;
+    padding: 2.5rem 0 6rem 0;
     
     font-size: 1.8rem;
 
@@ -193,6 +206,10 @@ a:hover{
         padding-top: 5rem;
 
         min-width: 80%;
+    }
+
+    a {
+        font-size: 1.8rem;
     }
 }
 
@@ -292,7 +309,7 @@ a:hover{
 
         h3{
             padding: 1rem 0 .5rem 0;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             font-weight: bold;
         }
     
@@ -320,7 +337,7 @@ a:hover{
 }
 
 .projectcard-description{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: $white-faded;
 }
 

@@ -4,47 +4,13 @@ title: WouterDeMoor - Home
 ---
 
 <section class="introduction container">
-    <h2 class="introduction-title">Hello and welcome &#128075;</h2>
-    <div class="introduction-text"><em>Wouter De Moor</em> here, aspiring gameplay programmer and designer. Excited to learn all about game development and ready for the challenges ahead!</div>
+    <em>Game development student looking for an end of year internship.</em>
+    <div class="introduction-text"></br></br>Mainly focus on action, combat systems and topdown gameplay using Unity or Unreal Engine, looking for new adventures and opportunities!
     <div class="introduction-contact">Want to talk? Let's get in touch: <a href="mailto:wouter.demoor@live.be" class="introduction-mail">wouter.demoor@live.be</a></div>
 </section>
 
-<section class="skills container">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-        <div class="skill-div">
-            <h3>Languages</h3>
-            <ul class="skill-list">
-                <li>C++</li>
-                <li>C#</li>
-                <li>HLSL</li>
-                <li>SQL</li>
-                <li>HTML &amp; CSS</li>
-            </ul>
-        </div>
-        <div class="skill-div">
-            <h3>Engines & APIs</h3>
-            <ul class="skill-list">
-                <li>Unreal Engine 4 &amp; 5</li>
-                <li>Unity 3D</li>
-                <li>DirectX</li>
-            </ul>
-        </div>
-        <div class="skill-div">
-            <h3>Tools</h3>
-            <ul class="skill-list">
-                <li>Visual Studio</li>
-                <li>Git(Hub)</li>
-                <li>Perforce</li>
-                <li>HacknPlan</li>
-                <li>Blender</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
 <section class="highlights container">
-    <h2>Highlighted games</h2>
+    <h2>Game Jams</h2>
     <div class="projectcard-grid container">
         {% projectcard "Fading Light", "2022", "Adventure game made in UE5 using next gen features. Expanded my knowledge on Lumen, Nanite, AI and much more.", "/fadinglight", "fadinglight" %}
         {% projectcard "Oogies Spacepark", "2021", "Epic MegaJam submission created with 4 friends, where I worked in blueprints to develop the interaction and sound system.", "/oogiesspacepark", "oogiesspacepark" %}
