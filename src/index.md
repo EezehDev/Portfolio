@@ -4,7 +4,7 @@ title: WouterDeMoor - Home
 ---
 
 <section class="introduction container">
-    <em>Game development student looking for an end of year internship.</em>
+    <em>Game development student looking for an end-of-study internship.</em>
     <div class="introduction-text"></br></br>Mainly focus on action, combat systems and topdown gameplay using Unity or Unreal Engine, looking for new adventures and opportunities!
     <div class="introduction-contact">Want to talk? Drop me a mail: <a href="mailto:wouter.demoor@live.be" class="introduction-mail">wouter.demoor@live.be</a></div>
 </section>
